@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+.container {
+  width: 100%;
+  height: 768px;
+  background-color: #434ccc;
+  align-items: center;
+}
+.hero {
+  width: 1150px;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #434ccc;
+  justify-content: space-between;
+}
+.hero h1 {
+  font-family: "DM Serif Display", serif;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 2;
+}
+
+.navigation ul {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  padding: 0 35px;
+  line-height: 4;
+  gap: 40px;
+}
+.navigation ul li {
+  color: #ffff;
+}
+.navigation button {
+  width: 170px;
+  height: 48px;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: #ffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.entry {
+  width: 1150px;
+  margin: 0 auto;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.write {
+  margin-top: 111px;
+  z-index: 2;
+}
+.entry h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.entry h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 72px;
+  margin-bottom: 32px;
+}
+.entry h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.entry img {
+  position: absolute;
+  z-index: 0;
+  margin-left: 300px;
+}
+.yellow-area {
+  background-color: #ffdd78;
+  height: 768px;
+  width: 100%;
+}
+.title {
+  text-align: center;
+  width: 1150px;
+  margin: 0 auto;
+}
+.title h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 3;
+}
+.title h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+.cards {
+  display: flex;
+  margin-top: 36px;
+}
+.card {
+  width: 370px;
+  height: 416px;
+  background-color: #ffff;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+.card img {
+  margin: 0 auto;
+  height: 100px;
+  margin-top: 64px;
+  margin-bottom: 54px;
+}
+.info {
+  text-align: start;
+  margin-left: 32px;
+}
+.info h4 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.info p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+.info hr {
+  color: #eeee;
+  margin-bottom: 25px;
+}
+.info button {
+  font-family: "DM Sans";
+  background: none;
+  border: none;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 700;
+}
+.title-2 {
+  text-align: center;
+  margin-top: 63px;
+}
+.title-2 h5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.title-2 h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.title-2 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+.demo {
+  display: flex;
+}
+.demos {
+  width: 1150px;
+  margin: 0 auto;
+}
+.demo img {
+  margin-bottom: 121px;
+}
+
+.demo-write {
+  text-align: start;
+  margin-top: 60px;
+}
+.demo-write h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+  align-items: end;
+}
+.demo-write p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.demo-write button {
+  background: none;
+  border: none;
+  font-family: "DM Sans";
+  margin-top: 37px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0000;
+}
+.purple-area {
+  background-color: #434ccc;
+  width: 100%;
+  height: 768px;
+}
+.title-3 {
+  text-align: center;
+  color: #ffff;
+  background-color: #434ccc;
+  padding-top: 79px;
+}
+.title-3 h5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.title-3 h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.title-3 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.cards-2 {
+  margin: 0 auto;
+}
+.card-2 {
+  width: 1124px;
+  margin: 0 auto;
+  background-color: #f1b505;
+  display: flex;
+  border-radius: 5px;
+  height: 499px;
+}
+.card-2 img {
+  border-radius: 5px;
+  width: 660px;
+}
+.card-2 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+}
+.card-2 h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  color: #ffff;
+  width: 500px;
+}
+.card-2 button {
+  width: 170px;
+  height: 48px;
+  margin-top: 36px;
+  background-color: #f1b505;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+.card-2 button a {
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: #ffff;
+  background: none;
+}
+.write-2 {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 111px;
+  width: 360px;
+}
+.card-3 {
+  width: 1121px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.caesar {
+  width: 528px;
+  height: 480px;
+  margin-top: 32px;
+  border-radius: 5px;
+  background-image: url(./img/caesar.png);
+  background-repeat: no-repeat;
+}
+.card-3 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+}
+.card-3 h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffff;
+}
+.card-3 button {
+  margin-top: 24px;
+  background: none;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+.writes {
+  position: relative;
+  top: 79px;
+  left: 100px;
+}
+.dog {
+  width: 528px;
+  height: 480px;
+  margin-top: 32px;
+  border-radius: 5px;
+  background-image: url(./img/dog.png);
+  background-repeat: no-repeat;
+}
+.all-works {
+  text-align: center;
+  margin-top: 25px;
+}
+.all-works button {
+  text-align: center;
+  width: 170px;
+  height: 48px;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+.all-works button a {
+  color: #434ccc;
+}
+.detail {
+  background-image: url(./img/door.png);
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 1725px;
+  margin: 0 auto;
+}
+.detail h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-left: 735px;
+  position: relative;
+  top: 164px;
+}
+.detail p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 735px;
+  position: relative;
+  top: 190px;
+}
+.down {
+  display: flex;
+  position: relative;
+  left: 735px;
+  top: 250px;
+  gap: 30px;
+}
+.down h5 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 19px;
+}
+.down h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 32px;
+}
+.down h6 {
+  margin-top: 7px;
+  font-family: "DM Sans";
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+}
