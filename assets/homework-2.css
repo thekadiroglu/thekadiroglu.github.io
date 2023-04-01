@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  height: 672px;
+  background: #ffc9ba;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav .logo {
+  margin-left: 165px;
+}
+.nav .icons {
+  margin-left: 860px;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link ul {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+.menu {
+  margin-left: 165px;
+  margin-top: 103px;
+
+  display: flex;
+}
+.menu h1 {
+  font-family: Montserrat;
+}
+.menu p {
+  font-family: Open Sans;
+  margin-top: 16px;
+}
+.menu button {
+  border: none;
+  background: none;
+  font-family: Montserrat;
+  margin-top: 32px;
+}
+.menu2 {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+/*sponsor kısmı*/
+.sponsor {
+  height: 191px;
+  display: flex;
+}
+.sponsor p {
+  height: 15px;
+}
+.sponsor img {
+  height: 27px;
+  width: 100px;
+  margin: 0 auto;
+  margin-left: 95px;
+  margin-top: 108px;
+}
+.gallery {
+  display: flex;
+  margin-top: 64px;
+}
+
+.large {
+  background-color: #e6f0ff;
+  margin-left: 265px;
+  margin-top: 24px;
+  margin-right: 24px;
+  height: 650px;
+  font-family: Montserrat;
+  border-radius: 6px;
+}
+.large img {
+  height: 534px;
+}
+.small {
+  background: #fafafb;
+  margin-top: 21px;
+  border-radius: 6px;
+}
+.small img {
+  height: 534px;
+}
+.large p {
+  font-family: Montserrat;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.small p {
+  font-family: Montserrat;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.gallery2 {
+  width: 100%;
+  background-color: #fff;
+}
+.baslik {
+  width: 1110px;
+  height: 540px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 128px;
+  font-weight: lighter;
+  position: relative;
+}
+.baslik hr {
+  color: #eaeaea;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.products {
+  display: flex;
+}
+.products img {
+  margin-right: 80px;
+  border-radius: 6px;
+}
+.detail p {
+  color: #807e7e;
+  font-family: Open Sans;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.detail h3 {
+  color: #212121;
+  font-family: Open Sans;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.gallery3 {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+.one-cikan {
+  width: 1110px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+.yazi {
+  background-color: #fafafb;
+  width: 700px;
+}
+.yazi h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 127px;
+  margin-left: 97px;
+}
+.yazi p {
+  font-family: Open Sans;
+  margin-left: 97px;
+  margin-top: 16px;
+}
+.yazi button {
+  border: none;
+  background: none;
+  font-family: Montserrat;
+  margin-top: 32px;
+  margin-left: 97px;
+}
+.gorsel img {
+  width: 620px;
+}
+.gorsel {
+  background-color: #e6f0ff;
+  border-radius: 6px;
+}
+.baslik2 {
+  width: 1110px;
+  height: 950px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 128px;
+  font-weight: lighter;
+  position: relative;
+}
+.baslik2 hr {
+  color: #eaeaea;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.baslik2 img {
+  border-radius: 6px;
+}
+.gallery4 .first {
+  margin-right: 19px;
+}
+.write {
+  position: absolute;
+  bottom: 480px;
+  left: 15px;
+  width: 183px;
+  height: 92px;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write2 {
+  position: absolute;
+  bottom: 480px;
+  left: 580px;
+  width: 192px;
+  height: 62px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write2 h4 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.small2 {
+  margin-top: 24px;
+  margin-right: 19px;
+}
+.write3 {
+  position: absolute;
+  bottom: 35px;
+  left: 15px;
+  width: 192px;
+  height: 62px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write3 h4 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.write4 {
+  position: absolute;
+  bottom: 35px;
+  left: 490px;
+  width: 192px;
+  height: 62px;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.write4 h4 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.baslik3 {
+  width: 1110px;
+  height: 508px;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 128px;
+  font-weight: lighter;
+  position: relative;
+}
+.baslik3 hr {
+  color: #eaeaea;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.baslik3 h1 {
+  width: 550px;
+}
+.baslik3 button {
+  float: right;
+  background: none;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+}
+.pictures {
+  display: flex;
+}
+.picture img {
+  width: 259px;
+  margin-right: 24px;
+  border-radius: 6px;
+}
+.picture h3 {
+  font-family: Open Sans;
+  color: #212121;
+}
+
+.picture p {
+  font-family: Open Sans;
+  margin-top: 16px;
+  color: #d8d8d8;
+}
+.footer {
+  height: 300px;
+  display: flex;
+}
+hr {
+  color: #d8d8d8;
+}
+.footer .explanation {
+  width: 496px;
+  height: 72px;
+  font-family: "Open Sans";
+  margin-left: 165px;
+  margin-bottom: 103px;
+  margin-top: 70px;
+}
+.footer .explanation p {
+  margin-top: 26px;
+}
+.links {
+  display: flex;
+  margin-left: 118px;
+  margin-top: 80px;
+}
+.links ul {
+  font-family: "Open Sans";
+  font-weight: bold;
+  margin-right: 84px;
+}
+.links ul li {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  margin-top: 8px;
+  color: #807e7e;
+}
+.social-footer {
+  height: 72px;
+  display: flex;
+}
+.social {
+  margin-left: 172px;
+}
+.social img {
+  margin-right: 50px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.copyright h5 {
+  font-family: Open Sanss;
+  margin-left: 900px;
+  margin-top: 28px;
+  color: #807e7e;
+}
+.write-5 h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.write-5 h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+}
+.write-5 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
