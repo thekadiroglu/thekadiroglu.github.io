@@ -349,7 +349,7 @@ a {
   background-image: url(./img/door.png);
   background-repeat: no-repeat;
   height: 800px;
-  width: 1725px;
+  width: 1529px;
   margin: 0 auto;
 }
 .detail h2 {
@@ -374,6 +374,7 @@ a {
   left: 735px;
   top: 250px;
   gap: 30px;
+  width: 560px;
 }
 .down h5 {
   font-family: "DM Serif Display";
@@ -393,4 +394,334 @@ a {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   font-size: 16px;
+}
+.office {
+  display: flex;
+  height: 728px;
+  width: auto;
+  justify-content: space-between;
+  background-color: #434ccc;
+  margin-bottom: 63px;
+}
+.promotion {
+  text-align: start;
+}
+.promotion h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  margin-top: 127px;
+  margin-left: 135px;
+}
+.promotion h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  color: #ffff;
+  margin-left: 135px;
+}
+.promotion p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffff;
+  margin-left: 135px;
+}
+.promotion button {
+  background: #f1b505;
+  border: none;
+  border-radius: 5px;
+  width: 170px;
+  height: 48px;
+  margin-left: 135px;
+  margin-top: 45px;
+}
+.promotion button a {
+  color: #ffff;
+  font-family: "DM Sans";
+
+  font-weight: 700;
+  font-size: 16px;
+}
+.office-img img {
+  width: 800px;
+  height: auto;
+}
+.user-area {
+  width: 100%;
+}
+.write-area {
+  text-align: center;
+}
+.write-area h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.write-area h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.write-area p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 36px;
+}
+.user {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 95px;
+}
+.user-1 {
+  width: 370px;
+  height: 480px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+.user-info {
+  margin-left: 32px;
+}
+.user-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.user-info hr {
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-bottom: 18px;
+}
+.user-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-image img {
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 31px;
+}
+.user-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.social img {
+  margin-right: 13px;
+}
+.options {
+  width: 100%;
+}
+.message-card {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 95px;
+  flex-wrap: wrap;
+}
+.method {
+  display: flex;
+  width: 370px;
+  height: 144px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+.method-img img {
+  padding: 32px;
+}
+.method-info {
+  margin-top: 24px;
+}
+.method-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+}
+.method-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.feedback {
+  width: 100%;
+  height: 496px;
+  background-color: #434ccc;
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: 79px;
+}
+
+.user-photo img {
+  border-radius: 50%;
+  margin-top: 120px;
+}
+.arrows {
+  width: 48px;
+  height: 48px;
+  margin-top: 192px;
+}
+.arrows img {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 13px;
+}
+.f-back {
+  margin-top: 127px;
+}
+.f-back h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  margin-bottom: 33px;
+}
+.f-back h4 {
+  font-family: "DM Serif Display";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+.f-back h6 {
+  font-family: "DM Sans";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.f-back p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sponsor {
+  width: 100%;
+}
+.sponsor hr {
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-bottom: 62px;
+}
+.logo img {
+  margin-right: 33px;
+  margin-top: 55px;
+}
+.logo {
+  width: 1226px;
+  margin: 0 auto;
+}
+.contact {
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 96px;
+}
+.contact a {
+  margin: 0 auto;
+  color: #434ccc;
+}
+.contact button {
+  margin: 0 auto;
+  width: 170px;
+  height: 48px;
+  background: none;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+.product {
+  width: 100%;
+}
+.baslik {
+  width: 1175px;
+  margin: 0 auto;
+  text-align: start;
+}
+.baslik h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.alt-baslik {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-bottom: 36px;
+}
+.alt-baslik h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+}
+.alt-baslik a {
+  color: #434ccc;
+}
+.alt-baslik button {
+  width: 170px;
+  height: 48px;
+  background: none;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+.product-card {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.product-image img {
+  border-radius: 40px;
+  padding: 33px;
+}
+.product-1 {
+  width: 570px;
+  height: 480px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
+  border-radius: 5px;
+}
+.product-info {
+  margin-left: 32px;
+}
+.product-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.product-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.product-info hr {
+  background: #000000;
+
+  opacity: 0.1;
+  margin-bottom: 18px;
+}
+.product-info button {
+  background: none;
+  border: none;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  color: #0000;
 }
