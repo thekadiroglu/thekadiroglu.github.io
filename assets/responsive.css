@@ -1016,7 +1016,7 @@ hr {
     height: 940px;
   }
   .hero {
-    width: 375px;
+    width: 100%;
   }
   #menu-icon {
     display: block;
@@ -1028,7 +1028,7 @@ hr {
     width: 343px;
   }
   .entry {
-    width: 375px;
+    width: 100%;
     display: block;
   }
   .entry img {
