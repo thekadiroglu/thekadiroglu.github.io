@@ -244,11 +244,9 @@ a {
   border-radius: 5px;
   height: 499px;
   background-image: url(./img/kadın.png);
+  background-position: 90%;
 }
-.card-2 img {
-  border-radius: 5px;
-  width: 660px;
-}
+
 .card-2 p {
   font-family: "DM Sans";
   font-weight: 400;
