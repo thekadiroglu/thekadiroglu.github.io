@@ -14,6 +14,12 @@ a {
   background-color: #434ccc;
   align-items: center;
 }
+.container-2 {
+  width: 100%;
+  height: 80px;
+  background-color: #434ccc;
+  align-items: center;
+}
 .hero {
   width: 1150px;
   height: 70px;
@@ -50,6 +56,13 @@ a {
   color: #ffff;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
+}
+#menu-icon {
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  display: none;
 }
 .entry {
   width: 1150px;
@@ -115,6 +128,7 @@ a {
   background-color: #ffff;
   margin-right: 30px;
   border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.297017);
 }
 .card img {
   margin: 0 auto;
@@ -1004,6 +1018,12 @@ hr {
   .hero {
     width: 375px;
   }
+  #menu-icon {
+    display: block;
+  }
+  .navigation ul {
+    display: none;
+  }
   .write {
     width: 343px;
   }
@@ -1288,3 +1308,82 @@ hr {
     display: block;
   }
 }
+
+/*About sayfası*/
+.about {
+  width: 100%;
+  height: 224px;
+  text-align: center;
+  background-color: #434ccc;
+}
+.about h1 {
+  font-family: "DM Serif Display";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 2;
+}
+.about p {
+  font-family: "DM Sans";
+  color: #ffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.statics {
+  width: 100%;
+  height: 590px;
+  background-image: url(./img/friend.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+}
+.static {
+  margin-left: 135px;
+  margin-top: 127px;
+}
+.static h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.static h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.static p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.numbers {
+  display: flex;
+  gap: 30px;
+}
+.number h3 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 40px;
+}
+.number h6 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+.number p {
+  font-family: "DM Sans";
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+}
+.white {
+  height: 768px;
+  width: 100%;
+  background-color: #ffff;
+}
+.advantages {
+  display: flex;
+}
+/*About sayfası*/
