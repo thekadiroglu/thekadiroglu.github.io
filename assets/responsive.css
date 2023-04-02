@@ -58,6 +58,7 @@ a {
   font-weight: 700;
 }
 #menu-icon {
+  display: none;
   font-size: 35px;
   color: #fff;
   cursor: pointer;
