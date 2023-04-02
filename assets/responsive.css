@@ -58,7 +58,6 @@ a {
   font-weight: 700;
 }
 #menu-icon {
-  display: none;
   font-size: 35px;
   color: #fff;
   cursor: pointer;
@@ -186,24 +185,28 @@ a {
 }
 .demo {
   display: flex;
+  width: 1170px;
+  margin: 0 auto;
 }
 .demos {
   width: 1150px;
   margin: 0 auto;
-}
-.demo img {
-  margin-bottom: 121px;
 }
 
 .demo-write {
   text-align: start;
   margin-top: 60px;
 }
+.demo-write h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
 .demo-write h3 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 40px;
-  align-items: end;
+  width: 435px;
 }
 .demo-write p {
   font-family: "DM Sans";
@@ -803,6 +806,11 @@ a {
   height: 656px;
   background-color: #ffdd78;
 }
+.subscribe2 {
+  height: 352px;
+  width: 100%;
+  background-color: #ffdd78;
+}
 .content {
   width: 1175px;
   height: 656px;
@@ -813,6 +821,14 @@ a {
   background-repeat: no-repeat;
   background-position: 160% 100%;
 }
+.content2 {
+  width: 1175px;
+  height: 656px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .write-5 {
   margin-top: 127px;
 }
@@ -850,6 +866,30 @@ a {
   border-radius: 5px;
 }
 .placeholder button a {
+  color: #ffff;
+  font-family: "DM Sans";
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+}
+.placeholder2 input {
+  margin-top: 150px;
+  width: 270px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.placeholder2 button {
+  width: 170px;
+  height: 48px;
+  border: none;
+  background: #434ccc;
+  border-radius: 5px;
+}
+.placeholder2 button a {
   color: #ffff;
   font-family: "DM Sans";
   border: none;
@@ -1385,7 +1425,245 @@ hr {
   width: 100%;
   background-color: #ffff;
 }
+.deals {
+  width: 100%;
+}
+.deal h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.deal h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  margin-bottom: 29px;
+}
+.deal p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.deal {
+  width: 1175px;
+  margin: 0 auto;
+  background-image: url(./img/welcome.png);
+  background-repeat: no-repeat;
+  background-position: 200%;
+}
 .advantages {
+  margin-top: 23px;
+}
+.advantage {
   display: flex;
+}
+.advantage img {
+  width: 41px;
+  height: 39px;
+  margin-right: 23px;
+}
+.advantage p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 3;
+}
+.welcome {
+  width: 700px;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+.button1 button {
+  background-color: #434ccc;
+  border: none;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+}
+.button1 a {
+  font-family: "DM Sans";
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.button2 button {
+  background-color: #fff;
+  border: none;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #434ccc;
+}
+.button2 a {
+  font-family: "DM Sans";
+  text-align: center;
+  color: #434ccc;
+  font-weight: 700;
+  font-size: 16px;
+}
+.sea {
+  width: 100%;
+  height: 480px;
+  background-color: #434ccc;
+}
+.under {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.num h1 {
+  font-family: "DM Serif Display";
+  color: #fff;
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center;
+}
+.num p {
+  font-family: "DM Sans";
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+}
+.audiam {
+  width: 100%;
+  height: 768px;
+  display: flex;
+}
+.all {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 111px;
+}
+.vim-illum {
+  width: 1170px;
+  margin: 0 auto;
+}
+.side-heading h5 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.side-heading h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+}
+.side-heading p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+.side-heading button {
+  width: 170px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #434ccc;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+.side-heading button a {
+  font-family: "DM Sans";
+  text-align: center;
+  color: #434ccc;
+  font-weight: 700;
+  font-size: 16px;
+}
+.methods {
+  display: block;
+}
+.method2 {
+  display: flex;
+  width: 370px;
+  height: 144px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.method2-img img {
+  padding: 32px;
+}
+.method2-info {
+  margin-top: 24px;
+}
+.method2-info h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 24px;
+}
+.method2-info p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.tantas {
+  width: 100%;
+  height: 768px;
+  margin-top: 100px;
+}
+.mountain {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.mountain-photo img {
+  border-radius: 5px;
+}
+.graphic {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 48px;
+  width: 470px;
+  height: 10px;
+  background-color: #ffff;
+  color: #807e7e;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+  border-radius: 23.5px;
+}
+.inactive {
+  width: 90px;
+  height: 10px;
+  padding: 24px 0;
+  line-height: 0;
+  text-align: center;
+}
+.inactive2 {
+  width: 152px;
+}
+.inactive3 {
+  width: 288px;
+}
+.active {
+  background-color: #f1b505;
+  color: #ffff;
+  border-radius: 23.5px;
+  text-align: center;
+  width: 382px;
+  height: 9px;
+}
+.active2 {
+  background-color: #e94a47;
+  color: #ffff;
+  border-radius: 23.5px;
+  text-align: center;
+  width: 382px;
+  height: 9px;
+}
+.active3 {
+  background-color: #428dfc;
+  color: #ffff;
+  border-radius: 23.5px;
+  text-align: center;
+  width: 182px;
+  height: 9px;
 }
 /*About sayfası*/
