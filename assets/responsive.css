@@ -194,6 +194,7 @@ a {
   font-family: "DM Sans";
   font-weight: 400;
   font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .demo-write button {
   background: none;
@@ -242,6 +243,7 @@ a {
   display: flex;
   border-radius: 5px;
   height: 499px;
+  background-image: url(./img/kadın.png);
 }
 .card-2 img {
   border-radius: 5px;
@@ -279,6 +281,7 @@ a {
   margin-left: 100px;
   margin-top: 111px;
   width: 360px;
+  background-image: url(./img/kadın.png);
 }
 .card-3 {
   width: 1121px;
@@ -620,6 +623,7 @@ a {
 .logo {
   width: 1226px;
   margin: 0 auto;
+  display: block;
 }
 .contact {
   text-align: center;
@@ -992,4 +996,220 @@ a {
 hr {
   background: #000000;
   opacity: 0.1;
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 375px;
+    height: 940px;
+  }
+  .hero {
+    width: 375px;
+  }
+  .write {
+    width: 343px;
+  }
+  .entry {
+    width: 375px;
+    display: block;
+  }
+  .entry img {
+    margin-left: -52px;
+    width: 429px;
+  }
+  .yellow-area {
+    height: 1632px;
+    width: 375px;
+  }
+  .title {
+    width: 375px;
+  }
+  .title h2 {
+    font-size: 40px;
+  }
+  .cards {
+    display: block;
+  }
+  .card {
+    width: 346px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .title-2 {
+    width: 375px;
+  }
+  .demos {
+    width: 375px;
+  }
+  .demo img {
+    width: 375px;
+  }
+  .demo {
+    display: block;
+  }
+  .demo-write {
+    margin-right: 14px;
+  }
+  .title-3 h2 {
+    font-size: 40px;
+  }
+  .purple-area {
+    margin-top: 50px;
+  }
+  .card-2 {
+    width: 343px;
+  }
+  .card-2 img {
+    position: absolute;
+    z-index: 0;
+    height: 500px;
+    width: 343px;
+  }
+  .write-2 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 0px;
+  }
+  .write-2 h2 {
+    font-size: 40px;
+  }
+  .card-3 {
+    width: 346px;
+    margin-top: 30px;
+    display: block;
+  }
+  .caesar {
+    width: 346px;
+    background-position: 60%;
+  }
+  .writes {
+    top: 22px;
+    left: 26px;
+  }
+  .dog {
+    width: 346px;
+    background-position: 50%;
+  }
+  .detail {
+    height: 1460px;
+    width: 375px;
+    background-position: 40% 0;
+  }
+  .detail h2 {
+    margin-left: 14px;
+    top: 759px;
+    font-size: 40px;
+  }
+  .detail p {
+    margin-left: 14px;
+    top: 793px;
+  }
+  .down {
+    display: block;
+    left: 14px;
+    top: 850px;
+    width: 375px;
+  }
+  .right {
+    margin-top: 27px;
+  }
+  .office {
+    display: inline-block;
+  }
+  .promotion {
+    height: 512px;
+  }
+  .promotion h5 {
+    margin-top: 106px;
+    margin-left: 14px;
+    margin-bottom: 19px;
+  }
+  .promotion h2 {
+    margin-left: 14px;
+    font-size: 40px;
+    margin-bottom: 31px;
+  }
+  .promotion p {
+    margin-left: 14px;
+    margin-bottom: 24px;
+  }
+  .promotion button {
+    margin-left: 14px;
+  }
+  .office-img img {
+    width: 375px;
+  }
+  .user-area {
+    margin-top: 47px;
+  }
+  .write-area h2 {
+    font-size: 40px;
+  }
+  .user {
+    display: inline-block;
+    width: 375px;
+  }
+  .user-1 {
+    width: 346px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .message-card {
+    width: 375px;
+    display: inline-block;
+  }
+  .method {
+    width: 346px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .feedback {
+    height: 900px;
+    display: inline-block;
+  }
+  .photo {
+    display: flex;
+    justify-content: space-around;
+  }
+  .f-back {
+    margin-top: 43px;
+    margin-left: 73px;
+  }
+  .logo {
+    width: 375px;
+    text-align: center;
+  }
+  .logo img {
+    margin-right: 19px;
+    margin-top: 34px;
+  }
+  .product {
+    height: 1400px;
+  }
+  .baslik {
+    width: 375px;
+  }
+  .alt-baslik {
+    display: inline-block;
+  }
+  .alt-baslik button {
+    margin-top: 25px;
+  }
+  .alt-baslik h2 {
+    font-size: 40px;
+  }
+  .product-card {
+    width: 375px;
+    display: inline-block;
+  }
+  .product-1 {
+    width: 346px;
+    margin-bottom: 36px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .product-image img {
+    width: 345px;
+    height: 345px;
+  }
 }
