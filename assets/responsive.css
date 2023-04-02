@@ -1016,9 +1016,10 @@ hr {
     height: 940px;
   }
   .hero {
-    width: 100%;
+    width: 80%;
   }
   #menu-icon {
+    margin-top: 15px;
     display: block;
   }
   .navigation ul {
