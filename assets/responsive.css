@@ -1051,7 +1051,7 @@ hr {
   background: #000000;
   opacity: 0.1;
 }
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 450px) {
   .container {
     width: 100%;
     height: 940px;
@@ -1347,6 +1347,10 @@ hr {
     margin-left: 15px;
   }
   .foot {
+    display: block;
+  }
+  .foot-center {
+    width: 100%;
     display: block;
   }
 }
