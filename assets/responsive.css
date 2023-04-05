@@ -1057,7 +1057,7 @@ hr {
     height: 940px;
   }
   .hero {
-    width: 80%;
+    width: 90%;
   }
   #menu-icon {
     margin-top: 15px;
@@ -1670,5 +1670,90 @@ hr {
   text-align: center;
   width: 182px;
   height: 9px;
+}
+@media screen and (max-width: 450px) {
+  .statics {
+    height: 1152px;
+    background-position: 72% 95%;
+    background-size: 616px;
+    margin-left: 15px;
+  }
+  .numbers {
+    display: block;
+  }
+  .static p {
+    width: 346px;
+  }
+  .static h2 {
+    font-size: 40px;
+  }
+  .white {
+    height: 1632px;
+  }
+  .deals {
+    height: 850px;
+    margin-left: 15px;
+  }
+  .demo {
+    display: block;
+  }
+  .demo-write p {
+    width: 346px;
+  }
+  .buttons {
+    gap: 5px;
+  }
+  .sea {
+    height: 896px;
+  }
+  .under {
+    display: initial;
+  }
+  .num p {
+    text-align: center;
+  }
+  .audiam {
+    height: 1376px;
+  }
+  .vim-illum {
+    margin-left: 15px;
+  }
+  .all {
+    display: block;
+  }
+  .tantas {
+    margin-left: 15px;
+    height: 832px;
+  }
+  .mountain {
+    display: block;
+  }
+  .mountain-photo img {
+    width: 343px;
+  }
+  .demo-write {
+    width: 375px;
+  }
+  .demo-write {
+    margin-left: 15px;
+  }
+  .subscribe2 {
+    height: 480px;
+  }
+  .placeholder2 input {
+    display: block;
+    margin-top: 38px;
+    margin-left: 15px;
+  }
+  .content2 {
+    display: block;
+  }
+  .write-5 h2 {
+    width: 209px;
+  }
+  .placeholder2 button {
+    margin-left: 15px;
+    margin-top: 16px;
+  }
 }
 /*About sayfası*/
