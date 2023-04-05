@@ -367,16 +367,17 @@ a {
 }
 .detail {
   background-image: url(./img/door.png);
+  background-position: -200px;
   background-repeat: no-repeat;
   height: 800px;
-  width: 1529px;
+  width: 1170px;
   margin: 0 auto;
 }
 .detail h2 {
   font-family: "DM Serif Display";
   font-weight: 400;
   font-size: 56px;
-  margin-left: 735px;
+  margin-left: 600px;
   position: relative;
   top: 164px;
 }
@@ -384,14 +385,14 @@ a {
   font-family: "DM Sans";
   font-weight: 400;
   font-size: 20px;
-  margin-left: 735px;
+  margin-left: 600px;
   position: relative;
   top: 190px;
 }
 .down {
   display: flex;
   position: relative;
-  left: 735px;
+  left: 600px;
   top: 250px;
   gap: 30px;
   width: 560px;
