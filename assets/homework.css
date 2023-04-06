@@ -27,9 +27,18 @@
 .table li {
   border: 1px solid #000;
   text-align: center;
+  transition: 0.5s;
 }
 .table li a {
   color: #000;
+  transition: 0.5s;
+}
+.table li:hover {
+  background-color: #000;
+  width: 150px;
+}
+.table li a:hover {
+  color: #fff;
 }
 .foot {
   height: 315px;
@@ -169,6 +178,7 @@ header {
 .main a:hover {
   color: #dddd;
 }
+
 #menu-icon {
   font-size: 35px;
   color: #fff;
