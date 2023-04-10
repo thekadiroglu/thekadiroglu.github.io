@@ -107,7 +107,7 @@
     max-width: 704px;
   }
   .input-area input {
-    width: 552px;
+    width: auto;
   }
   .input-area {
     padding-bottom: 40px;

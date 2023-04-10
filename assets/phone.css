@@ -117,12 +117,13 @@
     letter-spacing: -0.02em;
   }
   .input-area {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
   }
   .input-area input {
-    width: 311px;
+    width: auto;
+    border-radius: 6px;
   }
   .input-area a {
     width: 311px;
