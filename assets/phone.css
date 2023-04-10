@@ -30,7 +30,7 @@
   }
   .detail {
     height: 900px;
-    background-image: url(../img/paying2.png);
+    background-image: url(./img/paying2.png);
     background-size: 100%;
     background-position: 0 0;
   }
@@ -55,7 +55,7 @@
   /* Branding White Area End */
 
   /* Blog Area Start */
-  .blog-header{
+  .blog-header {
     padding: 32px 0 24px;
   }
 
@@ -65,7 +65,7 @@
 
   .blog-cards {
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 16px;
   }
 
@@ -99,10 +99,9 @@
   .customer-under {
     gap: 90px;
   }
-  
+
   .custumer-under-card p {
     width: 100%;
-
   }
   /* Customers Say Area End */
 
@@ -111,7 +110,7 @@
     margin: 0 auto;
     max-width: 345px;
   }
-  .text-area h5{
+  .text-area h5 {
     font-size: 28px;
     font-weight: 600;
     line-height: 36px;
@@ -122,10 +121,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .input-area input{
+  .input-area input {
     width: 311px;
   }
-  .input-area a{
+  .input-area a {
     width: 311px;
   }
   /* Submit Area End */
@@ -143,11 +142,11 @@
     display: none;
   }
 
-  .footer-up .logo{
+  .footer-up .logo {
     padding-bottom: 22px;
   }
 
-  .footer-up p{
+  .footer-up p {
     padding-bottom: 24px;
   }
 
@@ -171,24 +170,24 @@
     padding-bottom: 24px;
   }
 
-  .copyrate-phone p{
+  .copyrate-phone p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.10000000149011612px;
-    color: #5F6D7E;
+    color: #5f6d7e;
   }
-    
+
   .copyrate-phone {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-    
-  .copyrate-phone img{
+
+  .copyrate-phone img {
     width: 24px;
     height: 25.71px;
   }
-  
+
   /* Footer Area End */
 }
