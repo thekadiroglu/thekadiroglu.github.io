@@ -1,0 +1,269 @@
+@media (max-width: 704px) {
+  /* Hero Area Start */
+  #menu-icon {
+    display: block;
+    color: #272d37;
+  }
+  .navigation ul {
+    display: none;
+  }
+  .users {
+    display: none;
+  }
+  /* Hero Area End */
+
+  /* Channels Review Area Start */
+  .title {
+    width: auto;
+    height: auto;
+  }
+  .title2 {
+    width: auto;
+  }
+  .cards {
+    margin-left: 6px;
+    gap: 22px;
+  }
+  .card {
+    width: 336px;
+  }
+  .detail {
+    height: 986px;
+    background-image: url(../img/paying2.png);
+    background-size: 100%;
+    background-position: 0 0;
+  }
+  .all-changes {
+    display: none;
+  }
+  .write h6 {
+    margin-top: 291px;
+  }
+  /* Channels Review Area End */
+
+  /* Product Features Area Start */
+
+  /* Product Features Area End */
+
+  /* Branding Blue Area Start */
+
+  /* Branding Blue Area End */
+
+  /* Branding White Area Start */
+
+  /* Branding White Area End */
+
+  /* Blog Area Start */
+  .blog-header{
+    padding: 48px 0 32px;
+  }
+
+  .blog-header p {
+    width: 100%;
+  }
+
+  .blog-cards {
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 32px;
+  }
+
+  .blog-card {
+    width: 336px;
+  }
+
+  .blog-card-under {
+    width: 272px;
+  }
+  /* Blog Area End */
+
+  /* Customers Say Area Start */
+
+  .customer-header {
+    padding: 40px 0;
+  }
+
+  .customer-header p {
+    width: 100%;
+  }
+
+  .custumer-under-card p {
+    width: 209px;
+  } 
+
+  .divider {
+    display: none;
+  }
+
+  /* Customers Say Area End */
+
+  /* Submit Area Start */
+  .general-submit {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 704px;
+  }
+  .input-area input{
+    width: 552px
+  }
+  .input-area {
+    padding-bottom: 40px;
+  }
+  .text-area {
+    flex-basis: 90%;
+  }
+  
+  /* Submit Area End */
+
+  /* Footer Area Start */
+
+  /* .footer-deskp {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: end;
+  }
+
+  .footer-table{
+    flex: 0 0 auto;
+    width: 30%;
+  } */
+
+  .phone-footer {
+    display: none;
+  }
+
+  .tablet-footer {
+    display: block;
+  }
+  
+  .footer-area {
+    display: none;
+  }  
+  .copyrate {
+    display: none;
+  }
+
+  .tablet-footer {
+    padding-top: 120px;
+  }
+
+  .up-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  
+  }
+
+  .up-footer img{
+    padding-bottom: 30px;
+  }
+
+  .up-table {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    padding-top: 20px;
+  }
+
+  .logo p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    color: #5F6D7E;
+  }
+
+  .up-table h6{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    padding-bottom: 24px;
+  }
+
+  .up-table a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    color: #5F6D7E;
+    text-decoration: none;
+    padding-bottom: 12px;
+  }
+
+  .down-table h6{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    padding-bottom: 24px;
+  }
+
+  .down-table a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    color: #5F6D7E;
+    text-decoration: none;
+    padding-bottom: 12px;
+  }
+
+  .down-footer {
+    display: flex;
+    width: 78%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+
+  .down-table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-icon img{
+    width: 24px;
+    height: 25.71px;
+  }
+
+  .copyrate-area {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyrate-area p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    color: #5F6D7E;
+
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .footer-social img{
+    gap: 20px;
+  }
+  /* Footer Area End */
+
+  
+
+}
