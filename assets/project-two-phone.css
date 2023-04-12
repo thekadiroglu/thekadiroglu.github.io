@@ -1,0 +1,51 @@
+@media (max-width: 375px) {
+  .container {
+    margin: 0 auto;
+    max-width: 345px;
+  }
+
+  /* Hero Area Start */
+
+  /* Hero Area End */
+
+  /* Easy Study Start */
+
+  /* Easy Study End */
+
+  /* Product Features Start */
+
+  /* Product Features End */
+
+  /* Brand Awareness Start */
+
+  /* Brand Awareness End */
+
+  /* Supporters Start */
+
+  .pricing-card {
+    width:343px;
+  }
+  /* Supporters End */
+
+  /* Pricing Start */
+
+  /* Pricing End */
+
+  /* Latest Blogs Start */
+  .info2 {
+    display: block;
+  }
+  .info img {
+    width: 260px;
+    height: 185px;
+  }
+  /* Latest Blogs End */
+
+  /* Communication Start */
+
+  /* Communication End */
+
+  /* Footer Start */
+
+  /* Footer End */
+}
