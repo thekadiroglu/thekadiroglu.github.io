@@ -124,7 +124,7 @@ hr {
   display: flex;
   align-items: center;
   height: 580px;
-  background-image: url(../img/paying.png);
+  background-image: url(./img/paying.png);
   background-repeat: no-repeat;
   background-position: 100%;
 }
