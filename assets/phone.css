@@ -1,4 +1,8 @@
-@media (max-width: 345px) {
+@media (max-width: 375px) {
+  .container {
+    margin: 0 auto;
+    max-width: 345px;
+  }
   /* Hero Area Start */
 
   /* Hero Area End */
@@ -30,7 +34,7 @@
   }
   .detail {
     height: 900px;
-    background-image: url(./img/paying2.png);
+    background-image: url(../img/paying2.png);
     background-size: 100%;
     background-position: 0 0;
   }
@@ -47,11 +51,48 @@
   /* Product Features Area End */
 
   /* Branding Blue Area Start */
+  .containr {
+    width: 343px;
+    height: 343px;
+  }
+  .branding h5 {
+    width: 146px;
+    height: 20px;
+  }
+  .box {
+    width: 343px;
+    height: 144px;
+  }
+
+  .Velit {
+    width: 343px;
+    height: 120px;
+  }
+
+  .button {
+    width: 133px;
+    height: 46px;
+  }
 
   /* Branding Blue Area End */
 
   /* Branding White Area Start */
-
+  .demons img {
+    width: 343px;
+    height: 343px;
+  }
+  .demons h6 {
+    width: 146px;
+    height: 20px;
+  }
+  .demons p {
+    width: 343px;
+    height: 144px;
+  }
+  .Demons {
+    width: 343px;
+    height: 120px;
+  }
   /* Branding White Area End */
 
   /* Blog Area Start */
@@ -109,7 +150,8 @@
   .container {
     margin: 0 auto;
     max-width: 345px;
-  }
+  } 
+  
   .text-area h5 {
     font-size: 28px;
     font-weight: 600;
@@ -121,7 +163,9 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .input-area input {
+    width: 303px;
     width: auto;
     border-radius: 6px;
   }

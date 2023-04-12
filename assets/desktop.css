@@ -8,6 +8,7 @@ hr {
   height: 96px;
   background-color: #f8f9fb;
 }
+
 .navigation {
   display: flex;
   width: 640px;
@@ -58,10 +59,11 @@ hr {
 .title2 {
   text-align: center;
   margin: 0 auto;
-  height: 356px;
+  height: 238px;
   padding: 50px 0;
   width: 684px;
 }
+
 .title2 h1 {
   align-items: center;
 }
@@ -115,43 +117,182 @@ hr {
   width: 188px;
 }
 /* Channels Review Area End */
-.area {
-  display: block;
-}
+
+/* Product Features Area Start */
+
 .detail {
   display: flex;
   align-items: center;
   height: 580px;
-  background-image: url(./img/paying.png);
+  background-image: url(../img/paying.png);
   background-repeat: no-repeat;
   background-position: 100%;
 }
 .write {
-  gap: 16px;
-  width: 650px;
+  width: 50%;
+}
+.write h3 {
+  margin-bottom: 16px;
+}
+.write p {
+  margin-bottom: 40px;
 }
 .write h6 {
-  color: #437ef7;
+  color: #2b63d9;
 }
-.write button {
-  margin-top: 40px;
-  width: 143px;
-  height: 46px;
-}
-.img img {
-  width: 560px;
-  height: 560px;
-}
-/* Product Features Area Start */
-
 /* Product Features Area End */
 
 /* Branding Blue Area Start */
+
+.branding-blue {
+  background-color: #2b63d9;
+  padding: 64px 0px;
+  gap: 64px;
+  height: 688px;
+  margin-top: 10px;
+}
+.containr {
+  display: flex;
+  align-items: center;
+  padding: 0px 32px;
+  flex-direction: row;
+  gap: 80px;
+}
+.item {
+  color: white;
+  font-size: 30px;
+}
+.box {
+  width: 576px;
+  height: 126px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 30px;
+}
+.branding h5 {
+  width: 146px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Velit {
+  width: 576px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b1ccfb;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 20px;
+}
+.buttonn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+  gap: 6px;
+  width: 133px;
+  height: 46px;
+  background: #437ef7;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  color: aliceblue;
+  margin-top: 20px;
+}
 
 /* Branding Blue Area End */
 
 /* Branding White Area Start */
 
+.branding-white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0px;
+  gap: 64px;
+  height: 688px;
+  background: #fafbfc;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+.demons h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #272d37;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.demons p {
+  width: 532px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #5f6d7e;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.demons ul {
+  width: 506px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f6d7e;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.branding-white img {
+  width: 560px;
+  height: 560px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
 /* Branding White Area End */
 
 /* Blog Area Start */

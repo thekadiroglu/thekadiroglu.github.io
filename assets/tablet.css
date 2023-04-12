@@ -1,4 +1,8 @@
-@media (max-width: 704px) {
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    max-width: 704px;
+  }
   /* Hero Area Start */
   #menu-icon {
     display: block;
@@ -29,12 +33,15 @@
   }
   .detail {
     height: 986px;
-    background-image: url(./img/paying2.png);
+    background-image: url(../img/paying2.png);
     background-size: 100%;
     background-position: 0 0;
   }
   .all-changes {
     display: none;
+  }
+  .write {
+    width: auto;
   }
   .write h6 {
     margin-top: 291px;
@@ -46,11 +53,38 @@
   /* Product Features Area End */
 
   /* Branding Blue Area Start */
+  .containr {
+    width: 704px;
+    height: 460px;
+  }
+  .branding h5 {
+    width: 146px;
+    height: 20px;
+  }
+  .box {
+    width: 704px;
+    height: 84px;
+  }
 
   /* Branding Blue Area End */
 
   /* Branding White Area Start */
-
+  .demons img {
+    width: 704px;
+    height: 460px;
+  }
+  .demons h6 {
+    width: 146px;
+    height: 20px;
+  }
+  .demons p {
+    width: 704px;
+    height: 84px;
+  }
+  .Demons {
+    width: 704px;
+    height: 48px;
+  }
   /* Branding White Area End */
 
   /* Blog Area Start */
@@ -107,7 +141,7 @@
     max-width: 704px;
   }
   .input-area input {
-    width: auto;
+    width: 552px;
   }
   .input-area {
     padding-bottom: 40px;
