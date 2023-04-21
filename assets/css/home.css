@@ -31,9 +31,9 @@
 
 .image img {
   width: 275px;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: 0.5s;
-  padding: 5px;
+  padding: 10px;
 }
 .image img:hover {
   transform: translateY(-5px);
@@ -82,11 +82,23 @@
 }
 .foot {
   height: 315px;
-  background-color: #000;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 18%,
+    rgba(9, 9, 121, 1) 63%,
+    rgba(0, 212, 255, 1) 100%
+  );
   margin-top: 50px;
 }
 .footer {
-  background-color: #000;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 18%,
+    rgba(9, 9, 121, 1) 63%,
+    rgba(0, 212, 255, 1) 100%
+  );
   height: auto;
   width: 100%;
   padding-top: 40px;
@@ -95,21 +107,19 @@
 }
 .footer-content {
   display: flex;
-  background-color: #000;
+
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
 .footer-content h1 {
-  background-color: #000;
   font-size: 50px;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
 }
 .footer-content p {
-  background-color: #000;
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
@@ -117,11 +127,8 @@
   margin-top: 25px;
   display: flex;
 }
-.footer-bottom p {
-  background-color: #000;
-}
+
 .social-media {
-  background-color: #000;
   list-style: none;
   display: flex;
   align-items: center;
@@ -148,7 +155,13 @@
   height: 107px;
 }
 header {
-  background-color: #000;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 18%,
+    rgba(9, 9, 121, 1) 63%,
+    rgba(0, 212, 255, 1) 100%
+  );
   position: fixed;
   width: 100%;
   top: 0;
