@@ -1,0 +1,756 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+}
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #272d37;
+  background: #fafbfc;
+}
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+/* Reset CSS Finish */
+
+/* General CSS Start*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 0 auto;
+}
+/* :root{
+    --redText:#E2341D;
+    --redBg: #FFF2F0;
+    --greenText:#2D8A39;
+    --greenBg: #F0FAF0;
+    --blueText: #437EF7;
+    --blueBg: #F5FAFF;
+    --grayBg: #F7F7F8;
+  } */
+h1 {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.01em;
+}
+h2 {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+.largeText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+h6 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+p {
+  font-family: "Inter";
+  color: #5f6d7e;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.smallText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5f6d7e;
+}
+.xSmallText {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+}
+.blueButton {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10px 16px;
+  background: #437ef7;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+}
+.whiteButton {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid #dae0e6;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #272d37;
+  padding: 10px 16px;
+}
+/* General CSS Finish*/
+
+/* Desktop CSS Start */
+
+
+/*  menu   */
+/*  --- left-sidebar-menu-start --   */
+.logo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navbarContainer{
+  /*margin: 25px auto;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  height: 95%;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+  
+  
+}
+.hamburger{
+display: none;
+}
+.navbarContainer a{
+  display: flex;
+}
+.navbarContainer ul{
+  padding: 0;
+  margin: 0 auto;
+}
+.navbarContainer a img{
+  width: 40px;
+  height: 40px;
+}
+.setting{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+}
+/*  --- left-sidebar-menu-end --   */
+
+/* ----right-menu-start   ----- */
+
+.panel{
+  margin-right: 25px;
+}
+.right-menu{
+  margin: 0;
+  padding: 0;
+  
+  
+  
+}
+.right-menu-divider{
+  position: fixed;
+  border-left: 1px solid  #F7F7F8 ;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+}
+
+
+.menu-header{
+  border: 0px solid pink;
+  
+  border-radius: 5px;
+  display:flex;
+  gap: 50px;
+  flex-direction:row;
+  margin: 25px 15px;
+  padding: -2px 15px;
+  flex-wrap: wrap;
+  
+
+}
+
+.menu-header img{
+  width: 20px;
+  height: 20px;
+  
+}
+
+
+.sidebar-heading{
+  font-family: 'Inter';
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #5F6D7E;
+  margin: 10px auto;
+}
+.right-menu li{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  
+  gap: 12px;
+  
+
+
+}
+.menu-item{
+  margin: 0 auto;
+
+}
+.menu-link{
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #5F6D7E;
+  gap: 10px;
+  padding: 10px 15px;
+  flex-grow: 1;
+
+}
+.menu-item:hover{
+  border-left: 3px solid #437EF7;
+  background-color: #F5FAFF;
+  
+}
+.menu-link:hover{
+  color: #437EF7;
+
+}
+.search-text{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 8px;
+  background: #FFFFFF;
+  border: 1px solid #DAE0E6;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+}
+
+
+
+.right-menu-item
+{
+  display: flex;
+
+}
+.plan{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  background: #F8F9FB;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+  margin-bottom: 25px;
+
+}
+.plan h6{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.1px;
+  color: #272D37;
+}
+.plan a{
+  text-decoration: none;
+  color: #437EF7;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
+
+
+/*   ---- right-menu-end ----- */
+
+
+
+
+
+
+
+
+
+/*  menu   */
+
+
+
+
+
+.teamsContainer {
+  background-color: #fafbfc;
+  margin-bottom: 32px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 312px;
+  height: 494px;
+  justify-content: space-between;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+.name {
+  width: 121px;
+}
+.title {
+  justify-content: space-between;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 0 35px;
+}
+.title h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #272d37;
+}
+.btn-white {
+  padding: 10px 16px;
+  background-color: #ffffff;
+  color: #272d37;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #dae0e6;
+  border-radius: 5px;
+}
+.btn-blue {
+  padding: 10px 16px;
+  background-color: #437ef7;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 5px;
+}
+.card-title {
+  justify-content: space-between;
+  display: flex;
+  padding: 16px 20px;
+  align-items: center;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+  margin: 0 auto;
+  padding: 16px 0;
+  border-bottom: 1px solid #eaebf0;
+}
+.button-large {
+  padding: 8px 109px;
+  background-color: #437ef7;
+  border-radius: 5px;
+
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.button-medium {
+  padding: 10px 16px;
+  background-color: #ffff;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #437ef7;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.cardButton {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+a {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #437ef7;
+}
+.btn-white-large {
+  padding: 8px 42px;
+  background-color: #ffffff;
+  color: #272d37;
+  border: 1px solid #dae0e6;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn-blue-large {
+  padding: 8px 42px;
+  background-color: #437ef7;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.openButton {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.btn-3dot img {
+  padding: 19px 13px;
+  background-color: #ffff;
+  border: 1px solid #dae0e6;
+  border-radius: 5px;
+  display: none;
+}
+.graphicsContainer{
+  background: #FFFFFF;
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+  margin: 0 32px;
+}
+.graphicsHeader{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #EAEBF0;
+  padding: 16px 20px;
+}
+.graphicsHeader h3:first-child{
+  display: none;
+}
+.graphicsContainer h1{
+  display: none;
+}
+.graphicsFooter{
+  display: flex;
+  border-top: 1px solid #EAEBF0;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+.cartMobile{
+  display: none;
+}
+.openFlex{
+  display: flex;
+  gap: 8px;
+}
+.menu {
+  display: flex;
+  padding: 32px;
+  color: rgba(95, 109, 126, 1);
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.active {
+  color: rgba(67, 126, 247, 1);
+}
+
+.heroTitle {
+  padding: 32px;
+  padding-top: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroTitle p {
+  text-align: left;
+  color: rgba(95, 109, 126, 1);
+  font-weight: 400;
+}
+
+.heroButton {
+  padding-right: 32px;
+}
+.heroButton .blueButton {
+  margin-left: 12px;;
+}
+
+.card1 {
+  background: #FFFFFF;
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+  height: 144px;
+  padding: 16px 18px 20px;
+}
+
+
+.heroCards {
+  display: flex;
+  gap: 46px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+.heroGraphic {
+  display: flex;
+  justify-content: space-between;
+}
+.new1 {
+  display: flex;
+  padding-top: 16px;
+  justify-content: space-between;
+  gap:20px;
+}
+.new1 p {
+  text-align: left;
+  font-weight: 500;
+  color: rgba(95, 109, 126, 1);
+
+}
+.new1 h1 {
+  font-weight: 600;
+}
+.area h1 {
+  padding-bottom: 12px;
+}
+.blue {
+ color:  rgba(67, 126, 247, 1);
+background-color: rgba(245, 250, 255, 1);
+padding-left: 8px;
+}
+.newblue{
+  display: flex;
+  gap: 8px;
+}
+.new .red {
+  color: rgba(226, 52, 29, 1);
+  background-color: rgba(255, 242, 240, 1);
+  ;
+}
+.new .green {
+  color: rgba(45, 138, 57, 1);
+  background-color: rgba(240, 250, 240, 1);
+}
+.back {
+  display: none;
+}
+/* Desktop CSS Finish */
+
+/* Mobile CSS Start */
+
+@media screen and (max-width: 768px) {
+  .right-menu-divider{
+    display: none;
+  }
+  
+  .logo ul{
+    display: none;
+  }
+  .setting{
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+  }
+  .navbarContainer{
+    display:flex;
+    flex-direction: row;
+    position: static;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .cartDesktop{
+    display: none;
+  }
+  .cartMobile{
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 17px;
+  }
+  .graphicsFooter{
+    padding-left: 10px;
+  }
+  .graphicsFooter p{
+    display: none;
+  }
+  .graphicsHeader{
+    padding-left: 10px;
+  }
+  .graphicsHeader h3:first-child{
+    display: block;
+  }
+  .graphicsContainer h1{
+    display: block;
+  }
+  .graphicsContainer{
+    margin-bottom: 24px;
+  }
+  .graphicsContainer h1{
+    padding-left: 10px;
+  }
+  .graphicsContainer .smallText{
+    padding-top: 10px;
+  }
+  .d-none{
+    display: none;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+  }
+  .cards {
+    display: block;
+  }
+  .title {
+    display: block;
+    padding: 0 30px;
+  }
+  .card {
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .editButton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+  }
+  .btn-3dot img {
+    display: block;
+  }
+  .heroCards {
+    gap: 20px;
+    flex-direction: column;
+    padding-right: 24px;
+  }
+  .back{
+    display: block;
+  }
+  .home {
+    display: none;
+    
+  }
+  .heroTitle {
+    display: block;
+  }
+  .heroWriting { 
+    margin-bottom: 16px;
+  }
+  .heroButton { 
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .heroTitle p {
+    width: 300px;
+  }
+}
+/* Mobile CSS Finish */

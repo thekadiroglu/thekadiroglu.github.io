@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: "Alkatra", cursive;
   text-decoration: none;
+  font-family: "Righteous", cursive;
 }
+
 .baslik {
   width: 100%;
   text-align: center;
@@ -230,4 +231,17 @@ header {
   .navbar.open {
     right: 2%;
   }
+}
+/*contact page*/
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inputs {
+  display: block;
+}
+input {
+  width: 280px;
+  height: 45px;
 }

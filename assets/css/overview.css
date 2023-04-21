@@ -1,0 +1,718 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #272d37;
+  background: #fafbfc;
+}
+
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Reset CSS Finish */
+
+/* General CSS Start*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 0 auto;
+}
+
+/* :root{
+      --redText:#E2341D;
+      --redBg: #FFF2F0;
+      --greenText:#2D8A39;
+      --greenBg: #F0FAF0;
+      --blueText: #437EF7;
+      --blueBg: #F5FAFF;
+      --grayBg: #F7F7F8;
+    } */
+h1 {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+
+.largeText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h6 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p {
+  font-family: "Inter";
+  color: #5f6d7e;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.smallText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5f6d7e;
+}
+
+.xSmallText {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #5f6d7e;
+}
+
+.blueButton {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10px 16px;
+  background: #437ef7;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+}
+
+.whiteButton {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid #dae0e6;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #272d37;
+  padding: 10px 16px;
+}
+.dotButton {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid #dae0e6;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #272d37;
+  padding: 18px 16px;
+}
+
+/* General CSS Finish*/
+
+/* Desktop CSS Start */
+
+/* ----right-menu-start   ----- */
+
+.panel {
+  margin-right: 25px;
+}
+.right-menu {
+  margin: 0;
+  padding: 0;
+}
+.right-menu-divider {
+  position: fixed;
+  border-left: 1px solid #f7f7f8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.menu-header {
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin: 25px 15px;
+  padding: 20px 15px;
+  flex-wrap: wrap;
+}
+
+.menu-header img {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar-heading {
+  font-family: "Inter";
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #5f6d7e;
+  margin: 10px auto;
+}
+.right-menu li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 12px;
+}
+.menu-item {
+  margin: 0 auto;
+  list-style-type: none;
+}
+.menu-link {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #5f6d7e;
+  gap: 10px;
+  padding: 10px 15px;
+  flex-grow: 1;
+}
+.menu-item:hover {
+  border-left: 3px solid #437ef7;
+  background-color: #f5faff;
+}
+.menu-link:hover {
+  color: #437ef7;
+}
+
+.right-menu-item {
+  display: flex;
+}
+.menu-down li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.hamburger-icon {
+  display: none;
+}
+.navbarContainer {
+  display: flex;
+}
+
+/*   ---- right-menu-end ----- */
+.navigation {
+  display: flex;
+  border-bottom: 1px solid #dae0e6;
+  margin-bottom: 32px;
+  margin-top: 31px;
+  gap: 24px;
+  height: 57px;
+}
+.navigation p {
+  line-height: 4;
+  display: flex;
+}
+
+.navigation img {
+  margin-right: 8px;
+}
+.navigation a:hover p {
+  border-bottom: 2px solid #437ef7;
+  color: #437ef7;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.heroContainer {
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.graphic {
+  width: 720px;
+  background-color: #ffffff;
+  border: 1px solid #eaebf0;
+  border-radius: 10px;
+}
+.graphicTitle {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 20px 20px 0 0;
+}
+.graphic-title {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 16px;
+}
+
+.small {
+  display: none;
+}
+
+canvas {
+  max-width: 720px;
+  max-height: 294px;
+}
+
+#myChart2 {
+  display: none !important;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 16px;
+}
+
+.openButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.openButton a {
+  color: #437ef7;
+}
+
+.card {
+  width: 352px;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #eaebf0;
+}
+
+.name {
+  width: 121px;
+}
+
+.title {
+  justify-content: space-between;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.title h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #272d37;
+}
+
+.card-title {
+  justify-content: space-between;
+  display: flex;
+  padding: 16px 20px;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+.teamFlex {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.teamFooter {
+  display: flex;
+  border-top: 1px solid #eaebf0;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+.teamHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+.teamsContainer {
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+table {
+  width: 1096px;
+  height: 612px;
+}
+table td {
+  border-top: 1px solid #eaebf0;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-left: 24px;
+}
+.progress-bar {
+  width: 80px;
+  height: 8px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar::before {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 100%;
+  background-color: #437ef7;
+}
+.progress-bar[data-progress="25"]::before {
+  width: 25%;
+}
+.progress-bar[data-progress="50"]::before {
+  width: 50%;
+}
+.progress-bar[data-progress="75"]::before {
+  width: 75%;
+}
+.progress-bar[data-progress="100"]::before {
+  width: 100%;
+}
+.gap-32 {
+  gap: 32px;
+}
+.gap-9 {
+  gap: 9px;
+}
+.tdFlex {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0px;
+}
+.darkGray {
+  color: #272d37;
+}
+.bgBlue {
+  color: #437ef7;
+}
+
+.backendContainer {
+  padding-top: 32px;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 32px;
+}
+.backendCARD1 {
+  width: 349.33px;
+  background: #ffffff;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+.backendCARD2 {
+  width: 349.33px;
+  background: #ffffff;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+.backendCARD3 {
+  width: 349.33px;
+  background: #ffffff;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+.textime {
+  padding: 16px 20px;
+}
+.september {
+  padding-bottom: 12px;
+}
+.time h3 {
+  padding-bottom: 4px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.cardbutton {
+  border-top: 1px solid #eaebf0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  padding: 16px 20px 16px;
+  width: 349.33px;
+}
+.cardbutton .whiteButton {
+  width: 151px;
+}
+.cardbutton .blueButton {
+  width: 151px;
+}
+.time p {
+  font-weight: 500;
+}
+
+.background1 {
+  background-image: url("../img/img1.png");
+  width: 349px;
+  height: 176px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.background2 {
+  background-image: url("../img/img2.png");
+  width: 349px;
+  height: 176px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.background3 {
+  background-image: url("../img/img3.png");
+  width: 349px;
+  height: 176px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.slack {
+  height: 32px;
+  padding-right: 12px;
+}
+.textslack {
+  padding-top: 6px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
+.iconslack {
+  display: flex;
+}
+.new {
+  margin-top: 6px;
+  width: 44px;
+  height: 22px;
+  border-radius: 5px;
+  background: #f5faff;
+  color: rgba(67, 126, 247, 1);
+  text-align: center;
+  font-size: 13px;
+}
+/* Desktop CSS Finish */
+
+/* Mobile CSS Start */
+
+@media screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: flex;
+    position: static;
+  }
+  .menu-header {
+    display: none;
+  }
+  .sidebar-heading {
+    display: none;
+  }
+  .menu-link {
+    display: none;
+  }
+  .menu-item a {
+    display: none;
+  }
+  .right-menu-divider {
+    position: static;
+  }
+  .navbarContainer {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+
+  #myChart {
+    display: none !important;
+  }
+
+  #myChart2 {
+    display: block !important;
+  }
+
+  .graphic {
+    max-width: 327px;
+    display: block;
+    margin: 0 auto;
+  }
+  .graphicTitle {
+    display: block;
+  }
+  .write {
+    padding: 16px 24px;
+  }
+  .buttons {
+    justify-content: space-around;
+  }
+  .navigation {
+    justify-content: space-around;
+  }
+  .none {
+    display: none;
+  }
+  .small {
+    display: block;
+  }
+
+  .large {
+    display: none;
+  }
+
+  .card {
+    max-width: 327px;
+  }
+
+  .teamsContainer {
+    width: 375px;
+    overflow-x: auto;
+  }
+  .teamFooter {
+    width: 1096px;
+  }
+
+  .backendCARD2 {
+    display: none;
+  }
+  .backendCARD3 {
+    display: none;
+  }
+  .backendCARD1 {
+    margin: 0 auto;
+  }
+}
+
+/* Mobile CSS Finish */
