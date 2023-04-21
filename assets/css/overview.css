@@ -328,6 +328,14 @@ p {
 .buttons {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+a {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #437ef7;
 }
 .heroContainer {
   flex-wrap: wrap;
@@ -409,7 +417,9 @@ canvas {
   line-height: 28px;
   color: #272d37;
 }
-
+.none {
+  display: flex;
+}
 .card-title {
   justify-content: space-between;
   display: flex;

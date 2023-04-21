@@ -4,212 +4,494 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/homework-2.css" />
-    <title>HOMEWORK</title>
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <title>DASHBOARD</title>
   </head>
   <body>
+    <a href="overview.html">Ek sayfa / </a>
+    <a href="documentation.html">Ek sayfa-2</a>
     <div class="container">
-      <div class="nav">
-        <div class="logo">
-          <img src="./assets/img/img/Normal.png" alt="" />
-        </div>
-        <div class="icons">
-          <img style="margin-right: 48px" src="./assets/img/img/user.png" alt="" />
-          <img style="margin-right: 48px" src="./assets/img/img/box.png" alt="" />
-          <img
-            style="margin-right: 48px"
-            src="./assets/img/img/Hamburger.png"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="menu">
-        <div class="menu1">
-          <h1>
-            Koda grand sofa <br />
-            by armin dau
-          </h1>
-          <p>
-            New modern fashionable chair by robert kane <br />
-            gorgeous exclusive collection
-          </p>
-          <button>Explore Collection</button>
-        </div>
-        <div class="menu2"><img src="./assets/img/kanepe.png" alt="" /></div>
-      </div>
-    </div>
-    <div class="sponsor">
-      <img src="./assets/img/Logo 01.png" alt="" />
-      <img src="./assets/img/Logo 02.png" alt="" />
-      <img src="./assets/img/Logo 03.png" alt="" />
-      <img src="./assets/img/Logo 04.png" alt="" />
-      <img src="./assets/img/Logo 05.png" alt="" />
-      <img src="./assets/img/Logo 06.png" alt="" />
-    </div>
-    <div class="gallery">
-      <div class="large">
-        <img src="./assets/img/koltuk.png" alt="" />
-        <p>
-          Kora grang sofa by <br />
-          armen dali
-        </p>
-      </div>
-      <div class="small">
-        <img src="./assets/img/lamba.png" alt="" />
-        <p>
-          Kora grang sofa by <br />
-          armen dali
-        </p>
-      </div>
-    </div>
-    <div class="gallery2">
-      <div class="baslik">
-        <h1>Featured Products</h1>
-        <hr />
-        <div class="products">
-          <div class="detail">
-            <img src="./assets/img/tekli.png" alt="" />
-            <p>Chairs</p>
-            <h3>Classic GT Watch Limited</h3>
-            <h4>$199.00</h4>
+      <div class="panel">
+        <!-- Navbar Start-->
+        <!-- Navbar Start-->
+        <nav>
+          <div class="navbarContainer">
+            <!--  sol-menü-start    -->
+
+            <div class="logo">
+              <a href="index.html"
+                ><img src="assets/img/logo.svg" alt="fabrx-logo"
+              /></a>
+
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/img/left-menu-icons/search-icon.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/img/left-menu-icons/dashboard-icon.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/img/left-menu-icons/calendar-icon.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/left-menu-icons/bars-icon.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger">
+              <a href="#"
+                ><img
+                  src="assets/img/left-menu-icons/hamburger-icon.svg"
+                  alt=""
+              /></a>
+            </div>
+
+            <div class="setting">
+              <a href="#"
+                ><img src="assets/img/left-menu-icons/setting-icon.svg"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/left-menu-icons/logout-icon.svg"
+              /></a>
+            </div>
+
+            <!--  sol-menü-end    -->
           </div>
-          <div class="detail">
-            <img src="./assets/img/abajur.png" alt="" />
-            <p>Chairs</p>
-            <h3>Classic GT Watch Limited</h3>
-            <h4>$199.00</h4>
+          <!--  sag-menu-start  -->
+
+          <div class="right-menu-divider">
+            <!--<div class="right-menu-item">-->
+            <!-- Sidebar -->
+            <ul class="right-menu">
+              <div class="menu-header">
+                <img
+                  src="assets/img/right-menu-icon/left-icon.svg"
+                  alt="dashboard-icon"
+                />
+                <h4>Lookscout Dashboard</h4>
+              </div>
+              <div class="menu-header">
+                <input
+                  class="search-text"
+                  id="exampleInputEmail1"
+                  placeholder="Search"
+                />
+              </div>
+
+              <!-- Nav Item - Dashboard -->
+              <li class="menu-item">
+                <a class="menu-link" href="overview.html">
+                  <img
+                    src="assets/img/right-menu-icon/horizontal-icon.svg"
+                    alt="dashboard-icon"
+                  />
+                  General</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="documentation.html">
+                  <img
+                    src="assets/img/right-menu-icon/message-icon.svg"
+                    alt="dashboard-icon"
+                  />
+                  Message
+                  <span
+                    ><a href="#"
+                      ><img
+                        src="assets/img/right-menu-icon/down-icon.svg"
+                        alt="" /></a
+                  ></span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <img
+                    src="assets/img/right-menu-icon/notification-icon.svg"
+                    alt="dashboard-icon"
+                  />
+                  Notifications</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <img
+                    src="assets/img/right-menu-icon/user-icon.svg"
+                    alt="dashboard-icon"
+                  />
+                  Users</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <img
+                    src="assets/img/right-menu-icon/star-icon.svg"
+                    alt="dashboard-icon"
+                  />
+                  Events & Logs</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <img
+                    src="assets/img/right-menu-icon/bank-icon.svg"
+                    alt="dashboard-icon"
+                  />
+                  Organization</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <img
+                    src="assets/img/right-menu-icon/teams-icon.svg"
+                    alt="dashboard-icon"
+                  />
+                  Teams</a
+                >
+              </li>
+            </ul>
+            <!-- End of Sidebar -->
+            <!--</div>-->
+            <div class="menu-down">
+              <div class="menu-header">
+                <img src="assets/img/avatar.png" alt="dashboard-icon" />
+                Brian Ford
+                <img src="assets/img/right-menu-icon/dots-icon.svg" alt="" />
+              </div>
+              <div class="plan">
+                <img
+                  src="assets/img/right-menu-icon/progress-circle-icon.svg"
+                  alt=""
+                />
+                <h6>Subscription Plan</h6>
+                <p>
+                  Your Subscription plan will expire <br />
+                  soon please upgrade!
+                </p>
+                <a href="#">Upgrade</a>
+              </div>
+            </div>
           </div>
-          <div class="detail">
-            <img src="./assets/img/sandalye.png" alt="" />
-            <p>Chairs</p>
-            <h3>Classic GT Watch Limited</h3>
-            <h4>$199.00</h4>
+          <!--  sag-menu-end    -->
+        </nav>
+        <!-- Navbar Finish-->
+        <!-- Navbar Finish-->
+      </div>
+      <!--Panel Finish-->
+
+      <div class="content">
+        <!--Content Start-->
+
+        <!-- Hero Start-->
+        <section>
+          <div class="heroContainer">
+            <div class="menu">
+              <p class="back">&lt; Back</p>
+              <p class="home">
+                Home > Settings > <span class="active"> General </span>
+              </p>
+            </div>
+            <div class="heroTitle">
+              <div class="heroWriting">
+                <h1>Hey there, Brian Ford!</h1>
+                <p>Welcome back, we're happy to have you here!</p>
+              </div>
+              <div class="heroButton">
+                <a class="whiteButton" href="#">Edit Section</a>
+                <a class="blueButton" href="#">Add item</a>
+                <a class="btn-3dot" href=""
+                  ><img src="assets/img/3dot.svg" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="heroCards">
+              <div class="card1">
+                <div class="heroGraphic">
+                  <p>Revenue</p>
+                  <img src="assest/img/menu.svg" alt="" />
+                </div>
+
+                <div class="new">
+                  <div class="new1">
+                    <div class="area">
+                      <h1>$390</h1>
+                      <p><span class="blue">New</span> monthly growth</p>
+                    </div>
+                    <img src="assets/img/Graphics (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="card1">
+                <div class="heroGraphic">
+                  <p>Expenses</p>
+                  <img src="assest/img/menu.svg" alt="" />
+                </div>
+
+                <div class="new">
+                  <div class="new1">
+                    <div class="area">
+                      <h1>$680</h1>
+                      <p><span class="red">global</span> monthly growth</p>
+                    </div>
+                    <img src="assets/img/redgrafik.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="card1">
+                <div class="heroGraphic">
+                  <p>Expenses</p>
+                  <img src="assest/img/menu.svg" alt="" />
+                </div>
+
+                <div class="new">
+                  <div class="new1">
+                    <div class="area">
+                      <h1>$680</h1>
+                      <p><span class="green">intuitive</span> monthly growth</p>
+                    </div>
+                    <img src="assets/img/greengrafik.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
+        <!-- Hero Finish-->
+
+        <!-- Graphics Start-->
+        <section>
+          <div class="graphicsContainer">
+            <!-- Graphics Container Start-->
+            <div class="graphicsHeader">
+              <!-- Graphics Header Start-->
+              <h3>Revenue</h3>
+              <h3 class="d-none">Advanced Graphic</h3>
+              <img src="assets/img/3dot.svg" alt="Three Dot" />
+            </div>
+            <!-- Graphics Header Finish-->
+            <img
+              src="assets/img/chart.png"
+              class="cartDesktop"
+              alt="Chart Images"
+            />
+            <h1 class="smallText">Total Transaction Revenue</h1>
+            <h1>$135,450</h1>
+            <img
+              src="assets/img/chartMobile.png"
+              class="cartMobile"
+              alt="Cart Images Mobile"
+            />
+            <div class="graphicsFooter">
+              <!-- Graphics Footer Start-->
+              <p>Data graph</p>
+              <div class="openFlex">
+                <!-- Open Flex Start-->
+                <a href="">Open</a>
+                <a href=""><img src="assets/img/open.svg" alt="Open Icon" /></a>
+              </div>
+              <!-- Open Flex Finish-->
+            </div>
+            <!-- Graphics Footer Finish-->
+          </div>
+          <!-- Graphics Container Finish-->
+        </section>
+        <!-- Graphics Finish-->
+
+        <!-- Teams Start-->
+        <section>
+          <div class="teamsContainer">
+            <div class="title">
+              <h3>Brian Ford</h3>
+              <div class="editButton">
+                <a class="btn-white" href="">Edit section</a>
+                <a class="btn-blue" href="">Add item</a>
+                <a class="btn-3dot" href=""
+                  ><img src="assets/img/3dot.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <div class="card-title">
+                  <h6>Lookscout Team</h6>
+                  <a href=""><img src="assets/img/3dot.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/1user.png" alt="" />
+                  <div class="name">
+                    <h6>Latoya Langosh</h6>
+                    <p>Dynamic</p>
+                  </div>
+                  <img src="assets/img/online.svg" alt="" />
+                  <img src="assets/img/right-arrow.svg" alt="" />
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/2user.png" alt="" />
+                  <div class="name">
+                    <h6>Abel Mohr</h6>
+                    <p>Dynamic</p>
+                  </div>
+                  <img src="assets/img/online.svg" alt="" />
+                  <img src="assets/img/right-arrow.svg" alt="" />
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/3.png" alt="" />
+                  <div class="name">
+                    <h6>Shari Stamm</h6>
+                    <p>Chief</p>
+                  </div>
+                  <img src="assets/img/offline.svg" alt="" />
+                  <img src="assets/img/right-arrow.svg" alt="" />
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/4.png" alt="" />
+                  <div class="name">
+                    <h6>Earl Johnson</h6>
+                    <p>National</p>
+                  </div>
+                  <img src="assets/img/offline.svg" alt="" />
+                  <img src="assets/img/right-arrow.svg" alt="" />
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/5.png" alt="" />
+                  <div class="name">
+                    <h6>Erick Champlin</h6>
+                    <p>Central</p>
+                  </div>
+                  <img src="assets/img/online.svg" alt="" />
+                  <img src="assets/img/right-arrow.svg" alt="" />
+                </div>
+                <div class="cardButton">
+                  <a class="button-large" href="">View All</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-title">
+                  <h6>Updated Materials</h6>
+                  <a href=""><img src="assets/img/3dot.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/pdf.svg" alt="" />
+                  <div class="name">
+                    <h6>Lookscout Res.</h6>
+                    <p>80.69mb</p>
+                  </div>
+                  <a href=""><img src="assets/img/dowload.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/mp4.svg" alt="" />
+                  <div class="name">
+                    <h6>Lookscout Upt.</h6>
+                    <p>320.32mb</p>
+                  </div>
+                  <a href=""><img src="assets/img/dowload.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/pdf.svg" alt="" />
+                  <div class="name">
+                    <h6>Lookscout Guid</h6>
+                    <p>320.32mb</p>
+                  </div>
+                  <a href=""><img src="assets/img/empty.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/zip.svg" alt="" />
+                  <div class="name">
+                    <h6>Lookscout Sys.</h6>
+                    <p>320.32mb</p>
+                  </div>
+                  <a href=""><img src="assets/img/empty.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/mp4.svg" alt="" />
+                  <div class="name">
+                    <h6>Lookscout Guid</h6>
+                    <p>125.05mb</p>
+                  </div>
+                  <a href=""><img src="assets/img/dowload.svg" alt="" /></a>
+                </div>
+                <div class="cardButton">
+                  <a class="btn-white-large" href="">Cancel</a>
+                  <a class="btn-blue-large" href="">Upload</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-title">
+                  <h6>Updated Materials</h6>
+                  <a href=""><img src="assets/img/3dot.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/pinterest.svg" alt="" />
+                  <div class="name">
+                    <h6>Pinterest Team</h6>
+                    <p>Jan 23 2022</p>
+                  </div>
+                  <a href=""><img src="assets/img/done.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/sketch.svg" alt="" />
+                  <div class="name">
+                    <h6>Skecth Team</h6>
+                    <p>Jun 15 2022</p>
+                  </div>
+                  <a href=""><img src="assets/img/Failed.png" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/gitlab.svg" alt="" />
+                  <div class="name">
+                    <h6>Gitlab Team</h6>
+                    <p>Jan 15 2022</p>
+                  </div>
+                  <a href=""><img src="assets/img/done.svg" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/clickup.svg" alt="" />
+                  <div class="name">
+                    <h6>Clickup</h6>
+                    <p>Jan 15 2022</p>
+                  </div>
+                  <a href=""><img src="assets/img/Failed.png" alt="" /></a>
+                </div>
+                <div class="card-content">
+                  <img src="assets/img/deliverooo.png" alt="" />
+                  <div class="name">
+                    <h6>Deliverooo</h6>
+                    <p>Jan 15 2022</p>
+                  </div>
+                  <a href=""><img src="assets/img/done.svg" alt="" /></a>
+                </div>
+                <div class="openButton">
+                  <a href="">Open</a>
+                  <a href=""><img src="assets/img/open.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
+      <!-- Content Finish-->
     </div>
-    <div class="gallery3">
-      <div class="one-cikan">
-        <div class="yazi">
-          <h1>
-            Koda grand sofa <br />
-            by armin dau
-          </h1>
-          <p>
-            New modern fashionable chair by robert kane <br />
-            gorgeous exclusive collection
-          </p>
-          <button>Explore Collection</button>
-        </div>
-        <div class="gorsel">
-          <img src="./assets/img/koltuk2.png" alt="" />
-        </div>
-      </div>
-    </div>
-    <div class="gallery4">
-      <div class="baslik2">
-        <h1>Featured Products</h1>
-        <hr />
-        <img class="first" src="./assets/img/sandalye2.png" alt="" />
-        <div class="write">
-          <h4>
-            Koda sofa <br />
-            Armin Dau
-          </h4>
-        </div>
-        <img src="./assets/img/ofissandalyesi.png" alt="" />
-        <div class="write2">
-          <h4>Office furniture</h4>
-        </div>
-        <img class="small2" src="./assets/img/cicek.png" alt="" />
-        <div class="write3">
-          <h4>
-            Plants Deco
-          </h4>
-      </div>
-      <img class="large2" src="./assets/img/kaktüs.png" alt="" />
-        <div class="write4">
-          <h4>
-            Plant and pots
-          </h4>
-      </div>
-    </div>
-    <div class="final">
-      <div class="baslik3">
-        <h1>Latets Article</h1>
-        <button>View all <i class="fa-solid fa-arrow-right"></i></button>
-        <hr>
-        <div class="pictures">
-        <div class="picture">
-          <img src="./assets/img/kırmızı.png" alt="">
-          <p>Tips & Tricks</p>
-          <h3>Fashion basics all year long</h3>
-        </div>
-        <div class="picture">
-          <img src="./assets/img/sarı.png" alt="">
-          <p>Tips & Tricks</p>
-          <h3>Fashion basics all year long</h3>
-        </div>
-        <div class="picture">
-          <img src="./assets/img/duvar.png" alt="">
-          <p>Tips & Tricks</p>
-          <h3>Fashion basics all year long</h3>
-        </div>
-        <div class="picture">
-          <img src="./assets/img/sandalye3.png" alt="">
-          <p>Tips & Tricks</p>
-          <h3>Fashion basics all year long</h3>
-        </div>
-      </div>
-      </div>
-      
-    </div>
-    <hr />
-    <div class="footer">
-      
-      <div class="explanation"> 
-        <img src="./assets/img/Normal.png" alt="">
-        <p>Realm of the galaxies across the centuries the carbon in our apple pies vanquish the impossible another world venture. Dream of the mind's eye muse about home.</p>
-      </div>
-      <div class="links">
-        <ul>First Column
-          <li>Link One</li>
-          <li>Link Two</li>
-          <li>Link Three</li>
-          <li>Link Four</li>
-        </ul>
-        <ul>Second Column
-          <li>Link One</li>
-          <li>Link Two</li>
-          <li>Link Three</li>
-          <li>Link Four</li>
-        </ul>
-        <ul>Third Column
-          <li>Link One</li>
-          <li>Link Two</li>
-          <li>Link Three</li>
-          <li>Link Four</li>
-        </ul>
-      </div>
-    </div>
-    <hr />
-    <div class="social-footer">
-      <div class="social">
-        <img src="./assets/img/face.png" alt="">
-        <img src="./assets/img/insta.png" alt="">
-        <img src="./assets/img/twit.png" alt="">
-        <img src="./assets/img/Social 04.png" alt="">
-      </div>
-      <div class="copyright">
-        <h5>&copy; 2019 Fabrx</h5>
-      </div>
-    </div>
+    <!-- Container Finish-->
   </body>
 </html>
