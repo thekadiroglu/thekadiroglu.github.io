@@ -303,3 +303,8 @@ input {
   width: 280px;
   height: 45px;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

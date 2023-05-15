@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background: rgb(0, 45, 255);
+  background: linear-gradient(
+    177deg,
+    rgba(0, 45, 255, 1) 0%,
+    rgba(0, 144, 255, 1) 52%,
+    rgba(0, 0, 0, 1) 99%
+  );
+  background-repeat: no-repeat;
+  height: 703px;
+}
+.container {
+  text-align: center;
+  margin: 100px auto;
+  max-width: 700px;
+  justify-content: center;
+  background: none;
+}
+.welcome {
+  margin: 20px auto;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Shrikhand", cursive;
+  justify-content: space-around;
+  display: flex;
+}
+
+.user,
+.date {
+  cursor: pointer;
+  color: black;
+  background-color: #ffff;
+  padding: 12px;
+  border-radius: 30px;
+  display: flex;
+  transition: 0.5s;
+}
+.user:hover,
+.date:hover {
+  transform: translateY(5px);
+}
+.addTodo {
+  display: flex;
+  gap: 15px;
+}
+button {
+  border-radius: 50%;
+  width: 50px;
+  height: 35px;
+  border: none;
+  background-color: #ffff;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+  font-size: 25px;
+  align-items: center;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: darkgray;
+  color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+button:focus {
+  background-color: black;
+  color: aliceblue;
+}
+input {
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  border: 3px solid #ffff;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+input:focus {
+  box-shadow: 8px 8px 5px black;
+}
+.todo {
+  width: 100%;
+  background-color: #ffff;
+  min-height: 100px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  font-family: "Shrikhand", cursive;
+  font-size: 20px;
+}
+.myLineThrough {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+@media only screen and (max-width: 540px) {
+  .welcome {
+    display: block;
+  }
+}
