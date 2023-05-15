@@ -8,6 +8,7 @@ let username = prompt("kullanıcı adınız?");
 console.log(user);
 user.innerHTML += username;
 
+console.log(username);
 document.addEventListener("keypress", function (e) {
   if (e.key == "Enter") {
     let inputField = document.querySelector("#inputField");
@@ -53,6 +54,9 @@ console.log(hour);
 //dakika kısmını alıp konsola yazıdırıyorum..
 let minutes = d.getMinutes();
 console.log(minutes);
+if (minutes < 10) {
+  minutes = `0${minutes}`;
+}
 //gün kısmını alıp konsola yazıdırıyorum..
 let day = d.getDate();
 console.log(day);
@@ -63,5 +67,5 @@ console.log(month);
 let year = d.getFullYear();
 console.log(year);
 // aldığımız günleri teker teker yazıp ekrana çıktısını alıyorum..
-let fulldate = `${day}/${month}/${year} - ${hour}.${hour}`;
+let fulldate = `${day}/${month}/${year} - ${hour}.${minutes}`;
 document.querySelector("#date").innerHTML = fulldate;

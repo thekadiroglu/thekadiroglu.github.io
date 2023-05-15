@@ -40,6 +40,9 @@ body {
   border-radius: 30px;
   display: flex;
   transition: 0.5s;
+  max-width: 200px;
+  max-height: 40px;
+  margin: 0 auto;
 }
 .user:hover,
 .date:hover {
@@ -96,6 +99,9 @@ input:focus {
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   font-family: "Shrikhand", cursive;
   font-size: 20px;
+}
+.todo p {
+  cursor: pointer;
 }
 .myLineThrough {
   text-decoration: line-through;
