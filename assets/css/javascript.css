@@ -5,12 +5,12 @@
   text-decoration: none;
 }
 body {
-  background: rgb(0, 45, 255);
+  background: rgb(0, 208, 255);
   background: linear-gradient(
-    177deg,
-    rgba(0, 45, 255, 1) 0%,
-    rgba(0, 144, 255, 1) 52%,
-    rgba(0, 0, 0, 1) 99%
+    184deg,
+    rgba(0, 208, 255, 1) 40%,
+    rgba(209, 208, 204, 1) 58%,
+    rgba(255, 254, 248, 1) 97%
   );
   background-repeat: no-repeat;
   height: 703px;
@@ -46,7 +46,7 @@ body {
 }
 .user:hover,
 .date:hover {
-  transform: translateY(5px);
+  transform: translateY(-5px);
 }
 .addTodo {
   display: flex;

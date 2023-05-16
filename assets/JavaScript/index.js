@@ -3,12 +3,16 @@ let todo = document.querySelector("#todo");
 let inputField = document.querySelector("#inputField");
 let date = document.querySelector("#date");
 let user = document.querySelector("#user");
-
-let username = prompt("kullanıcı adınız?");
+//kullancıdan kullanıcı adı alıyoruz..
+let username = prompt("İsminiz/Kullanıcı Adınız?");
 console.log(user);
 user.innerHTML += username;
-
 console.log(username);
+//Bize isim veya kullanıcı adı vermezse "Belirtilmedi" olarak tanımlıyoruz..
+if (username.innerHTML == null) {
+  user.innerHTML += "Belirtilmedi";
+}
+//enter tuşu ile todo ekleme fonksiyonu..
 document.addEventListener("keypress", function (e) {
   if (e.key == "Enter") {
     let inputField = document.querySelector("#inputField");
@@ -27,7 +31,7 @@ document.addEventListener("keypress", function (e) {
     }
   }
 });
-
+//cilck etkileşimi ile todo ekleme fonksiyonu..
 addToDoButton.addEventListener("click", function (event) {
   let inputField = document.querySelector("#inputField");
   let todo = document.querySelector("#todo");
