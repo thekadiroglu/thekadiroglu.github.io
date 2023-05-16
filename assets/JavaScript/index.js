@@ -8,10 +8,6 @@ let username = prompt("İsminiz/Kullanıcı Adınız?");
 console.log(user);
 user.innerHTML += username;
 console.log(username);
-//Bize isim veya kullanıcı adı vermezse "Belirtilmedi" olarak tanımlıyoruz..
-if (username.innerHTML == null) {
-  user.innerHTML += "Belirtilmedi";
-}
 //enter tuşu ile todo ekleme fonksiyonu..
 document.addEventListener("keypress", function (e) {
   if (e.key == "Enter") {
