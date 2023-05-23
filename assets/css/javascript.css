@@ -18,9 +18,10 @@ body {
 .container {
   text-align: center;
   margin: 100px auto;
-  max-width: 700px;
-  justify-content: center;
+  max-width: 1480px;
+  justify-content: space-between;
   background: none;
+  display: flex;
 }
 .welcome {
   margin: 20px auto;
@@ -100,8 +101,12 @@ input:focus {
   font-family: "Shrikhand", cursive;
   font-size: 20px;
 }
+.write-todo {
+  width: 700px;
+}
 .todo p {
   cursor: pointer;
+  user-select: none;
 }
 .myLineThrough {
   text-decoration: line-through;
@@ -111,4 +116,14 @@ input:focus {
   .welcome {
     display: block;
   }
+}
+.detail-todo {
+  width: 500px;
+  height: 300px;
+  display: none;
+}
+.detail-todo.todoblock {
+  display: block;
+  width: 500px;
+  height: 300px;
 }

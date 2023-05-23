@@ -3,8 +3,25 @@ let todo = document.querySelector("#todo");
 let inputField = document.querySelector("#inputField");
 let date = document.querySelector("#date");
 let user = document.querySelector("#user");
+let todos = [
+  {
+    title: "Yapılacak İşler",
+    isCompleted: false,
+    description: "",
+    createdDate: "18-05-2023 18.44",
+    dueDate: "19-05-2023 18.44",
+    subtasks: [
+      {
+        title: "Alt Görev",
+        isCompleted: false,
+      },
+    ],
+  },
+];
 //kullancıdan kullanıcı adı alıyoruz..
+
 let username = prompt("İsminiz/Kullanıcı Adınız?");
+
 console.log(user);
 user.innerHTML += username;
 console.log(username);
@@ -13,7 +30,7 @@ document.addEventListener("keypress", function (e) {
   if (e.key == "Enter") {
     let inputField = document.querySelector("#inputField");
     let todo = document.querySelector("#todo");
-    let paragraph = document.createElement("p");
+    paragraph = document.createElement("p");
     if (inputField.value == " ") {
       return;
     } else {
@@ -27,11 +44,12 @@ document.addEventListener("keypress", function (e) {
     }
   }
 });
-//cilck etkileşimi ile todo ekleme fonksiyonu..
+//click etkileşimi ile todo ekleme fonksiyonu..
 addToDoButton.addEventListener("click", function (event) {
   let inputField = document.querySelector("#inputField");
   let todo = document.querySelector("#todo");
   let paragraph = document.createElement("p");
+  paragraph.setAttribute("class", "todoparagraph");
   if (inputField.value == " ") {
     return;
   } else {
@@ -40,11 +58,27 @@ addToDoButton.addEventListener("click", function (event) {
 
     console.log(inputField.value.trim());
     inputField.value = " ";
-    paragraph.addEventListener("click", function () {
-      paragraph.classList.toggle("myLineThrough");
-    });
+
+    // paragraph.addEventListener("dblclick", function () {
+    //   paragraph.classList.toggle("myLineThrough");
+    // });
   }
+  kelime();
 });
+
+function kelime() {
+  console.log("kelime");
+  let paragraphs = document.querySelectorAll(".todoparagraph");
+  paragraphs.forEach((paragraph) => {
+    paragraph.addEventListener("dblclick", function (e) {
+      let detailtodo = document.querySelector("#detailTodo");
+
+      console.log(detailtodo);
+      detailtodo.classList.toggle("todoblock");
+    });
+  });
+}
+
 //full date'i alıyoruz..
 let d = new Date();
 console.log(d);
