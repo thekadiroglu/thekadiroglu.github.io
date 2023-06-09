@@ -103,3 +103,32 @@ console.log(year);
 // aldığımız günleri teker teker yazıp ekrana çıktısını alıyorum..
 let fulldate = `${day}/${month}/${year} - ${hour}.${minutes}`;
 document.querySelector("#date").innerHTML = fulldate;
+//filter kullanımı !!!!aktif değil!!!!
+var kisiler = [
+  {
+    ad: "Ali",  
+    soyad: "Yılmaz",
+    yas: 25,
+  },
+  {
+    ad: "Ayşe",
+    soyad: "Kara",
+    yas: 30,
+  },
+  {
+    ad: "Mehmet",
+    soyad: "Demir",
+    yas: 35,
+  },
+  {
+    ad: "Zeynep",
+    soyad: "Yıldız",
+    yas: 28,
+  },
+];
+
+inputField.addEventListener("keyup", () => {
+  let kisi = kisiler.filter((eleman) =>
+    eleman.toLower().includes(inputField.value)
+  );
+});
