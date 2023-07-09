@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  margin-top: 150px;
 }
 .baslik {
   width: 100%;
@@ -182,7 +183,7 @@ header {
     rgba(9, 9, 121, 1) 63%,
     rgba(0, 212, 255, 1) 100%
   );
-  
+  position: fixed;
   width: 100%;
   top: 0;
   right: 0;
