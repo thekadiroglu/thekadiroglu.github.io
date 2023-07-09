@@ -7,7 +7,7 @@
   font-family: "Poltawski Nowy", serif;
 }
 .container{
-  width: 1110px;
+  max-width: 1110px;
   margin: 20px auto;
   background-color: #ffff;
   border: 1px solid #eaebf0;
