@@ -29,13 +29,14 @@
   flex-wrap: wrap;
 }
 .card {
-  width: 300px;
+  width: 312px;
   height: 250px;
   border: 1px solid #eaebf0;
   border-radius: 10px;
   margin: 0 auto;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-bottom: 15px;
 }
 .card a {
   color: #437ef7;
@@ -103,23 +104,11 @@ width: 150px;
 }
 .foot {
   height: 315px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 18%,
-    rgba(9, 9, 121, 1) 63%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-image: url(../img/magicpattern-grid-pattern-1688978181849.png);
   margin-top: 50px;
 }
 .footer {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 18%,
-    rgba(9, 9, 121, 1) 63%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-image: url(../img/magicpattern-grid-pattern-1688978181849.png);
   height: auto;
   width: 100%;
   padding-top: 40px;
@@ -176,13 +165,7 @@ width: 150px;
   height: 107px;
 }
 header {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 18%,
-    rgba(9, 9, 121, 1) 63%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-image: url(../img/magicpattern-grid-pattern-1688978181849.png);
   position: fixed;
   width: 100%;
   top: 0;
