@@ -4,7 +4,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: "Poltawski Nowy", serif;
+  font-family: 'Poppins', sans-serif;
 }
 .container{
   max-width: 1110px;
@@ -21,22 +21,21 @@
   margin-top: 150px;
 }
 .baslik {
-  width: 100%;
   text-align: center;
 }
 .cards {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
 }
 .card {
-  width: 312px;
+  justify-content: space-around;
   height: 250px;
-  border: 1px solid #eaebf0;
-  border-radius: 10px;
+  
   margin: 0 auto;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
+    display: flex;
 }
 .card a {
   color: #437ef7;
@@ -44,12 +43,17 @@
 .card a:hover {
   color: #0f5cf6;
 }
-
+.image{
+  background-color: #0f5cf6;
+  padding: 45px;
+  align-items: center;
+display: flex;
+}
 .image img {
-  width: 275px;
-  border-radius: 20px;
+  width: 375px;
+
   transition: 0.5s;
-  padding: 10px;
+
 }
 .mySelf{
   font-size: 20px;
@@ -60,14 +64,13 @@ width: 150px;
 .image img:hover {
   transform: translateY(-5px);
 }
-.image {
-  width: 275px;
-  margin: 0 auto;
-}
+
 .content {
-  text-align: center;
+  text-align: start;
   gap: 10px;
+  width: 500px;
 }
+
 .content p {
   color: #5f6d7e;
 }
@@ -235,7 +238,21 @@ header {
 .main a:hover {
   color: #dddd;
 }
-
+.title{
+  display: flex;
+  justify-content: space-around;
+  width: 1110px;
+  height: 478px;
+  margin: 0 auto;
+  gap: 85px;
+  align-items: center;
+}
+.me img{
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+}
 #menu-icon {
   font-size: 35px;
   color: #fff;
@@ -297,6 +314,36 @@ header {
   }
   .navbar.open {
     right: 2%;
+  }
+  .card{
+    display: block;
+    margin-bottom: 427px;
+    border-top: 1px solid black ;
+    padding: 10px;
+  }
+  .image img{
+    width: 300px;
+  }
+  .image{
+    padding: 0;
+  }
+  .content{
+    width: auto;
+  }
+  .content{
+    margin: 45px 0;
+  }
+  .title{
+    display: block;
+    margin: 0 auto 200px auto;
+    width: 80%;
+  }
+  .me{
+    margin-bottom: 45px;
+  }
+  .me img{
+    width: 325px;
+    height: 325px;
   }
 }
 
