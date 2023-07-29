@@ -44,14 +44,14 @@
   color: #0f5cf6;
 }
 .image{
-  background-color: #0f5cf6;
+  
   padding: 45px;
   align-items: center;
 display: flex;
 }
 .image img {
   width: 375px;
-
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: 0.5s;
 
 }
@@ -63,6 +63,7 @@ width: 150px;
 }
 .image img:hover {
   transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .content {
@@ -73,6 +74,14 @@ width: 150px;
 
 .content p {
   color: #5f6d7e;
+}
+.colorfulContent{
+  text-align: start;
+  gap: 10px;
+  width: 500px;
+}
+.colorfulContent p{
+  color: #fff;
 }
 .info {
   width: 100%;
@@ -168,17 +177,17 @@ width: 150px;
   height: 107px;
 }
 header {
-  background-image: url(../img/magicpattern-grid-pattern-1688978181849.png);
-  position: fixed;
   width: 100%;
-  top: 0;
-  right: 0;
+  margin: 0 auto;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 28px 12%;
   transition: all 0.5s ease;
+  color: #000;
+  border-bottom: 1px solid #b3b3b3;
+  border-radius: 15px;
 }
 .logo {
   display: flex;
@@ -186,7 +195,7 @@ header {
 }
 .logo img {
   width: 200px;
-  height: 50px;
+  
 }
 .logo i {
   font-size: 28px;
@@ -202,17 +211,22 @@ header {
   display: flex;
 }
 .navbar a {
-  color: #fff;
+  color: #000;
   font-size: 1.1rem;
-  padding: 5px 0;
+  padding: 10px;
+  border-radius: 15px;
   margin: 0 30px;
   transition: 0.5s;
+  
+  
 }
 .navbar a:hover {
-  color: #dddd;
+  color: #202020dd;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: translateY(-5px);
 }
 .navbar a.active {
-  color: #fff;
+  color: #000;
 }
 .main {
   display: flex;
@@ -259,6 +273,11 @@ header {
   cursor: pointer;
   z-index: 1;
   display: none;
+}
+.colorful{
+  
+  background-color: #564dff;
+  color: #fff !important;
 }
 @media (max-width: 1280px) {
   header {
