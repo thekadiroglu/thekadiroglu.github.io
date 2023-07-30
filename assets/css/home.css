@@ -283,6 +283,9 @@ header.scrolled {
     padding: 14px 2%;
     transition: 0.2s;
   }
+  .header{
+    height: 100px;
+  }
   .navbar a {
     padding: 5px 0;
     margin: 0 20px;
