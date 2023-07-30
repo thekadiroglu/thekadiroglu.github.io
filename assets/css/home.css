@@ -172,9 +172,7 @@ width: 150px;
   width: 200px;
 }
 /*header*/
-.header {
-  height: 107px;
-}
+
 header {
   width: 100%;
   margin: 0 auto;
@@ -182,11 +180,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 12%;
+  padding: 10px 12%;
   transition: all 0.5s ease;
   color: #000;
-  border-bottom: 1px solid #b3b3b3;
-  border-radius: 15px;
+  position: fixed;
+}
+header.scrolled {
+  background-color: rgba(255, 255, 255, 0.852); /* Koyu arka plan rengi */
 }
 .logo {
   display: flex;
@@ -268,7 +268,7 @@ header {
 }
 #menu-icon {
   font-size: 35px;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   z-index: 1;
   display: none;
