@@ -31,7 +31,7 @@
 }
 .card {
   justify-content: space-around;
-  height: 250px;
+ 
   
   margin: 0 auto;
     margin-bottom: 45px;
@@ -44,7 +44,6 @@
   color: #0f5cf6;
 }
 .image{
-  
   padding: 45px;
   align-items: center;
 display: flex;
@@ -336,7 +335,7 @@ header {
   }
   .card{
     display: block;
-    margin-bottom: 427px;
+    
     border-top: 1px solid black ;
     padding: 10px;
   }
@@ -363,6 +362,9 @@ header {
   .me img{
     width: 325px;
     height: 325px;
+  }
+  .colorfulContent{
+    width: auto;
   }
 }
 
