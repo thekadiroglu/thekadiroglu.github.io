@@ -417,6 +417,36 @@ input:nth-of-type(7):checked ~ main#carousel {
 input{
   cursor: pointer;
 }
+.container{
+  width: 100%;
+ 
+}
+.contactme{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 12%;
+  text-align: center;
+}
+.me{
+  width: 250px;
+  margin: 0 100px;
+  border-radius: 50%;
+}
+.contactInfo{
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  padding: 15px;
+  text-align: center;
+}
+.small{
+  width: 100px;
+  background-color: #0f5cf6;
+  padding: 21px;
+  border-radius: 50%;
+}
 @media (max-width: 1280px) {
   header {
     padding: 14px 2%;
@@ -513,8 +543,17 @@ input{
   .com-son-img{
     width: 140px;
   }
-  .container{
-    margin: 20vh 35px;
+  .contactme{
+    padding: 80px 0;
+  }
+  .contactInfo{
+    display: block;
+  }
+  .me{
+    margin: 20px 0;
+  }
+  .location{
+    margin-bottom: 25px;
   }
 }
 /*contact page*/
