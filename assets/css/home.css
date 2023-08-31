@@ -272,17 +272,7 @@ header.scrolled {
   opacity: 0.5;
   max-width: 550px;
 }
-.container{
- max-width: 1040px;
- margin: 20vh auto;
- text-align: center;
- padding: 55px;
- border-radius: 15px;
- box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.container h1{
-  opacity: 0.7;
-}
+
 .buttons{
   margin-top: 45px;
   display: flex;
@@ -299,6 +289,133 @@ header.scrolled {
 }
 .buttons a:hover{
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.aboutme{
+ max-width: 1400px;
+ margin: 0 auto;
+ text-align: center;
+ padding: 55px;
+ border-radius: 15px;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.whoisme{
+  display: block;
+  width: 50%;
+  margin-top: 80px;
+}
+.languages{
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+}
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 10;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 6;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+
+div.item {
+  position: absolute;
+  height: 400px;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+div.item:nth-of-type(1) {
+  --offset: 1;
+  
+}
+div.item:nth-of-type(2) {
+  --offset: 2;
+  
+}
+div.item:nth-of-type(3) {
+  --offset: 3;
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+}
+div.item:nth-of-type(6) {
+  --offset: 6;
+}
+div.item:nth-of-type(7) {
+  --offset: 7;
+}
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+input:nth-of-type(6) {
+  grid-column: 7 / 8;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(6):checked ~ main#carousel {
+  --position: 6;
+}
+input:nth-of-type(7) {
+  grid-column: 8 / 9;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(7):checked ~ main#carousel {
+  --position: 8;
+}
+input{
+  cursor: pointer;
 }
 @media (max-width: 1280px) {
   header {
@@ -408,9 +525,5 @@ header.scrolled {
 }
 .inputs {
   display: block;
-}
-input {
-  width: 280px;
-  height: 45px;
 }
 
