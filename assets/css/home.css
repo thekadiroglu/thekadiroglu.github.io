@@ -475,13 +475,8 @@ input{
     right: -100%;
     width: 270px;
 
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 18%,
-      rgba(9, 9, 121, 1) 63%,
-      rgba(0, 212, 255, 1) 100%
-    );
+    background: #564dfe;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
