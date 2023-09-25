@@ -201,11 +201,9 @@ header.scrolled {
   color: #000;
   font-size: 1.1rem;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 0 30px;
   transition: 0.5s;
-  
-  
 }
 .navbar a:hover {
   color: #202020dd;
@@ -446,6 +444,18 @@ input{
   background-color: #0f5cf6;
   padding: 21px;
   border-radius: 50%;
+}
+.react{
+  transform-origin: center;
+    animation: rotate 10s linear infinite; /* Dönme animasyonu */
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
 }
 @media (max-width: 1280px) {
   header {
