@@ -102,12 +102,12 @@ width: 150px;
 }
 .foot {
   height: 315px;
-  background-image: url(../img/magicpattern-grid-pattern-1688978181849.png);
+  background-image: url(../img/newbk.svg);
   margin-top: 50px;
   
 }
 .footer {
-  background-image: url(../img/magicpattern-grid-pattern-1688978181849.png);
+  background-image: url(../img/newbk.svg);
   height: auto;
   width: 100%;
   padding-top: 40px;
@@ -196,19 +196,24 @@ header.scrolled {
 }
 .navbar {
   display: flex;
+  gap: 35px;
 }
 .navbar a {
-  color: #000;
-  font-size: 1.1rem;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 0 30px;
-  transition: 0.5s;
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #564dfe; /* the color */
+  
+  color: #0000;
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
 }
 .navbar a:hover {
-  color: #202020dd;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  transform: translateY(-5px);
+  --_p: 100%;
+  --_s: .3s;
 }
 .navbar a.active {
   color: #000;
