@@ -487,6 +487,13 @@ to {
   .cards {
     gap: 15px;
   }
+  .foot{
+    padding: 0 0 15px 0 ;
+    width: 100%;
+  }
+  .footer{
+    display: block;
+  }
 }
 @media (max-width: 1090px) {
   #menu-icon {
@@ -552,8 +559,8 @@ to {
     margin-bottom: 45px;
   }
   .me img{
-    width: 325px;
-    height: 325px;
+    width: 310px;
+    height: 310px;
   }
   .colorfulContent{
     width: auto;
@@ -570,7 +577,8 @@ to {
     display: block;
   }
   .me{
-    margin: 20px 0;
+    margin: 20px auto;
+    width: 310px;
   }
   .location{
     margin-bottom: 25px;
