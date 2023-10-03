@@ -477,7 +477,7 @@ input{
   background-color: #fff;
   margin: 15% auto;
   padding: 20px;
-  width: 70%;
+  width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: relative;
 }
@@ -494,8 +494,8 @@ input{
   color: black;
 }
 .smlPic{
-  width: 250px;
-  margin: 0 0px;
+  width: 160px;
+  margin: 0 auto;
   border-radius: 50%;
 }
 .smlPic img{
