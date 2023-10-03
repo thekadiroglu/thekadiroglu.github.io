@@ -504,7 +504,7 @@ to {
     top: 100%;
     right: -100%;
     width: 270px;
-
+    gap: 0;
     background: #564dfe;
     
     display: flex;
@@ -517,6 +517,7 @@ to {
     display: block;
     margin: 12px 0;
     padding: 0 25px;
+    background: none;
     transition: 0.5s;
     color: #fff;
   }
