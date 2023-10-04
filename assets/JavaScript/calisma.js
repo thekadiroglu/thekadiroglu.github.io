@@ -26,3 +26,8 @@ function kapatModal() {
 window.onload = function() {
   modalGoster();
 };
+window.addEventListener('load', function() {
+  // Sayfa tamamen yüklendiğinde yükleme simgesini gizle
+  var loadingContainer = document.querySelector('.loading-container');
+  loadingContainer.style.display = 'none';
+});
