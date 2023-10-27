@@ -229,7 +229,7 @@ header.scrolled {
   color: #000;
 }
 .main {
-  display: flex;
+  display: none;
   align-items: center;
 }
 .main a {
@@ -536,6 +536,10 @@ input{
 width: 50px;
 cursor: pointer;
 }
+.tc{
+  width: 100px;
+
+}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -582,6 +586,9 @@ to {
   }
   #menu-icon {
     display: block;
+  }
+  .main{
+    display: flex;
   }
   .navbar {
     position: absolute;
