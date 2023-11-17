@@ -38,11 +38,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const navbarLinks = document.querySelectorAll('.navbar a');
   const baslik = document.querySelector(".baslik");
   const cardTitles = document.querySelectorAll('.cards .card h1');
-  
+  const menuIcon = document.querySelector('.menu-icon');  
 
   darkModeToggle.addEventListener('click', function () {
     body.classList.toggle('dark-mode');
     baslik.classList.toggle('dark-text');
+    menuIcon.classList.toggle('dark-text');
     navbarLinks.forEach(function (link) {
       link.classList.toggle('dark-text');
     });
