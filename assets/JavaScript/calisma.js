@@ -31,19 +31,24 @@ window.addEventListener('load', function() {
   var loadingContainer = document.querySelector('.loading-container');
   loadingContainer.style.display = 'none';
 });
-document.addEventListener('DOMContentLoaded', function () {
-  const darkMode = document.getElementById('darkMode');
-  const body = document.body;
-  const baslik = document.querySelector(".baslik");
-  const dark = document.querySelector(".dark");
-  const darkTextElements = document.querySelectorAll('.dark-text');
 
-  darkMode.addEventListener('click', function () {
-      body.classList.toggle('dark-mode');
+document.addEventListener('DOMContentLoaded', function () {
+  const darkModeToggle = document.getElementById('darkMode');
+  const body = document.body;
+  const navbarLinks = document.querySelectorAll('.navbar a');
+  const baslik = document.querySelector(".baslik");
+  const cardTitles = document.querySelectorAll('.cards .card h1');
+  
+
+  darkModeToggle.addEventListener('click', function () {
+    body.classList.toggle('dark-mode');
     baslik.classList.toggle('dark-text');
-    dark.classList.toggle('dark-text');
-      darkTextElements.forEach(function (element) {
-          element.classList.toggle('dark-text');
-      });
+    navbarLinks.forEach(function (link) {
+      link.classList.toggle('dark-text');
+    });
+
+    cardTitles.forEach(function (title) {
+      title.classList.toggle('dark-text');
+    });
   });
 });

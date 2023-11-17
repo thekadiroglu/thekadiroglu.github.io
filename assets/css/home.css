@@ -184,7 +184,7 @@ header {
   position: fixed;
 }
 header.scrolled {
-  background-color: rgba(255, 255, 255, 0.852); /* Koyu arka plan rengi */
+  background-color: #52d2f2bc /* Koyu arka plan rengi */
 }
 .logo {
   display: flex;
