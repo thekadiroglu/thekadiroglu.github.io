@@ -6,7 +6,9 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
-
+body{
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
 .baslik {
   text-align: center;
 }
@@ -18,8 +20,6 @@
 }
 .card {
   justify-content: space-around;
- 
-  
   margin: 0 auto;
     margin-bottom: 45px;
     display: flex;
@@ -211,7 +211,6 @@ header.scrolled {
 .navbar a {
   --b: 0.1em;   /* the thickness of the line */
   --c: #564dfe; /* the color */
-  
   color: #0000;
   padding-block: var(--b);
   background: 
@@ -224,9 +223,6 @@ header.scrolled {
 .navbar a:hover {
   --_p: 100%;
   --_s: .3s;
-}
-.navbar a.active {
-  color: #000;
 }
 .main {
   display: none;
@@ -536,10 +532,6 @@ input{
 width: 50px;
 cursor: pointer;
 }
-.tc{
-  width: 100px;
-
-}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -552,6 +544,16 @@ cursor: pointer;
 to {
     transform: rotate(360deg);
 }
+}
+.darkMode i{
+  font-size: 50px;
+  color: #000;
+}
+.dark-mode{
+  background-color: #0f0f0f;
+}
+.dark-text {
+  color: white !important;
 }
 @media (max-width: 1280px) {
   
