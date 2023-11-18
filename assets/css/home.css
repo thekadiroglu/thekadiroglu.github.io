@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
+  
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
@@ -554,6 +554,9 @@ to {
 }
 .dark-text {
   color: white !important;
+}
+.updateList{
+  list-style-type: square;
 }
 @media (max-width: 1280px) {
   
