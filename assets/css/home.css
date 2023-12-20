@@ -326,7 +326,7 @@ header.scrolled {
 main#carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 10;
-  width: 100vw;
+  width: 97vw;
   height: 500px;
   display: flex;
   align-items: center;
