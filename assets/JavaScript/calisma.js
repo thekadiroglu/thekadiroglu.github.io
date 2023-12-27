@@ -32,6 +32,7 @@ window.addEventListener('load', function() {
   loadingContainer.style.display = 'none';
 });
 
+//Dark Mode
 document.addEventListener('DOMContentLoaded', function () {
   const darkModeToggle = document.getElementById('darkMode');
   const body = document.body;
