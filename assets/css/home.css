@@ -13,16 +13,26 @@ body{
   text-align: center;
 }
 .cards {
-  display: block;
+  display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  flex-wrap: wrap;
+  width: 82%;
   margin: 0 auto;
 }
 .card {
-  justify-content: space-around;
+  width: 600px;
+  justify-content: center;
+  padding: 15px;
   margin: 0 auto;
-    margin-bottom: 45px;
-    display: flex;
+  margin-bottom: 45px;
+  display: block;
+  border: 1px solid #e8e8e875;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: 0.5s;
+}
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 .card a {
   color: #437ef7;
@@ -34,6 +44,7 @@ body{
   padding: 45px;
   align-items: center;
 display: flex;
+justify-content: center;
 }
 .image img {
   width: 375px;
@@ -53,20 +64,23 @@ width: 150px;
 }
 
 .content {
-  text-align: start;
+  text-align: center;
   gap: 10px;
-  width: 500px;
+  width: 100%;
   padding: 25px 0;
+  display: block;
+  margin: 0 auto;
 }
 
 .content p {
   color: #5f6d7e;
 }
 .colorfulContent{
-  text-align: start;
+  text-align: center;
   gap: 10px;
-  width: 500px;
+  width: 100%;
   padding: 25px 0;
+ 
 }
 .colorfulContent p{
   color: #fff;
@@ -634,8 +648,6 @@ to {
   }
   .card{
     display: block;
-    
-    border-top: 1px solid black ;
     padding: 10px;
   }
   .image img{
@@ -666,6 +678,7 @@ to {
   }
   .colorfulContent{
     width: auto;
+    margin: 45px 0;
   }
 }
 @media (max-width: 500px){
@@ -685,6 +698,13 @@ to {
   .location{
     margin-bottom: 25px;
   }
+  .cards{
+    width: 100%;
+  }
+  .card{
+    border-radius: 0;
+  }
+
 }
 /*contact page*/
 .form {
