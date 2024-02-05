@@ -9,6 +9,19 @@
 body{
   transition: background-color 0.5s ease, color 0.5s ease;
 }
+.write-logo{
+  font-family: "Lobster", sans-serif;
+  font-weight: lighter;
+  color: #437ef7;
+  font-style: normal;
+  font-size: 45px;
+  padding: 10px;
+  transition: 2s;
+}
+.write-logo:hover{
+  filter: brightness(550%);
+  text-shadow:0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
 .baslik {
   text-align: center;
 }
@@ -204,9 +217,6 @@ header {
   background-color: #000;
   border-radius: 70px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-}
-header.scrolled {
-  background-color: #52d2f2bc /* Koyu arka plan rengi */
 }
 .logo {
   display: flex;
@@ -625,10 +635,8 @@ to {
     right: -100%;
     width: 270px;
     gap: 0;
-    background: #564dfe;
+    background: #000;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     border-radius: 10px;
     transition: 0.5s;
   }
@@ -639,10 +647,10 @@ to {
     background: none;
     transition: 0.5s;
     color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   }
   .navbar a:hover {
-    color: #dddd;
-    transform: translateX(5px);
+    box-shadow: none;
   }
   .navbar a.active {
     color: #fff;
@@ -687,6 +695,9 @@ to {
   }
 }
 @media (max-width: 500px){
+  .write-logo{
+    font-size: 35px;
+  }
   .com-son-img{
     width: 140px;
   }
