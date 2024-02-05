@@ -639,6 +639,8 @@ to {
     display: flex;
     border-radius: 10px;
     transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 10px;
   }
   .navbar a {
     display: block;
@@ -647,7 +649,6 @@ to {
     background: none;
     transition: 0.5s;
     color: #fff;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   }
   .navbar a:hover {
     box-shadow: none;
